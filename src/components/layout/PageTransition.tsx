@@ -16,9 +16,18 @@ const PageTransition: React.FC<PageTransitionProps> = ({ children }) => {
     
     // Add animation classes
     if (pageRef.current) {
-      pageRef.current.classList.add('animate-fade-in');
+      // Start with opacity 0
+      pageRef.current.style.opacity = '0';
       
-      // Clean up animation classes
+      // Trigger fade in animation
+      setTimeout(() => {
+        if (pageRef.current) {
+          pageRef.current.style.opacity = '1';
+          pageRef.current.classList.add('animate-fade-in');
+        }
+      }, 10);
+      
+      // Clean up animation classes after animation completes
       const timer = setTimeout(() => {
         if (pageRef.current) {
           pageRef.current.classList.remove('animate-fade-in');
@@ -32,7 +41,7 @@ const PageTransition: React.FC<PageTransitionProps> = ({ children }) => {
   return (
     <div 
       ref={pageRef}
-      className="w-full opacity-0"
+      className="w-full transition-opacity duration-500"
       style={{ opacity: 0 }}
     >
       {children}
