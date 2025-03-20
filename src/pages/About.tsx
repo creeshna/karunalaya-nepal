@@ -20,26 +20,26 @@ const About = () => {
               
               <div className="prose prose-lg mx-auto">
                 <p className="lead text-xl text-foreground/80">
-                  EcoAlliance is dedicated to protecting animal welfare, human rights, and the environment through collaborative action, education, and advocacy.
+                  EcoAlliance unites passionate advocates to create lasting solutions for animal welfare, human rights, and environmental sustainability through collaborative action.
                 </p>
                 
                 <h2>Our Story</h2>
                 <p>
-                  Founded in 2008, EcoAlliance began as a small group of passionate individuals committed to making a difference in their local community. What started as a grassroots movement has grown into a global organization with projects in over 15 countries.
+                  EcoAlliance emerged in 2008 when a diverse group of environmental scientists, human rights advocates, and animal welfare experts recognized the need for an integrated approach to global challenges. What began as community-based initiatives has evolved into an international organization with operations spanning five continents and over 20 countries.
                 </p>
                 
                 <p>
-                  Our journey has been guided by the belief that the wellbeing of animals, humans, and the environment are deeply interconnected. We recognize that sustainable solutions must address all three aspects to create lasting positive change.
+                  Throughout our journey, we've remained committed to the fundamental principle that the wellbeing of our planet requires harmony between all its inhabitants—human and non-human alike. Our holistic approach addresses the interconnected nature of social justice, conservation, and ethical treatment of animals.
                 </p>
                 
                 <h2>Our Mission</h2>
                 <p>
-                  To protect and enhance the lives of animals, uphold human rights, and preserve the natural environment through innovative programs, community partnerships, and global advocacy.
+                  To champion the interconnected causes of animal welfare, human rights, and environmental protection through evidence-based programs, local partnerships, and policy advocacy that create sustainable, positive change for all living beings.
                 </p>
                 
                 <h2>Our Vision</h2>
                 <p>
-                  A world where all living beings thrive in healthy ecosystems, with their rights and dignity respected and protected.
+                  A world where ecosystems flourish, animals are treated with compassion, and human communities thrive in balance with nature, supported by just systems and sustainable practices.
                 </p>
                 
                 <h2>Our Values</h2>
@@ -63,21 +63,21 @@ const About = () => {
                 
                 <h2>Our Approach</h2>
                 <p>
-                  EcoAlliance takes a holistic approach to addressing the interconnected challenges facing our planet:
+                  EcoAlliance employs a multifaceted strategy to address complex global challenges:
                 </p>
                 
                 <ol>
                   <li>
-                    <strong>Direct Action:</strong> We implement hands-on projects that make an immediate difference.
+                    <strong>Community Empowerment:</strong> We work alongside local communities to develop sustainable solutions that respect cultural contexts while advancing universal rights.
                   </li>
                   <li>
-                    <strong>Education:</strong> We raise awareness and provide resources to empower individuals and communities.
+                    <strong>Education & Awareness:</strong> We create accessible resources that inspire action and foster a deeper understanding of the connections between human, animal, and environmental wellbeing.
                   </li>
                   <li>
-                    <strong>Advocacy:</strong> We work with policymakers to promote legal protections for animals, people, and the environment.
+                    <strong>Policy Advocacy:</strong> We collaborate with governments and international bodies to strengthen legal frameworks that protect vulnerable species, ecosystems, and communities.
                   </li>
                   <li>
-                    <strong>Research:</strong> We support scientific studies that advance understanding and inform best practices.
+                    <strong>Innovative Research:</strong> We support pioneering studies that bridge traditional disciplinary boundaries and develop integrated solutions for our most pressing challenges.
                   </li>
                 </ol>
               </div>

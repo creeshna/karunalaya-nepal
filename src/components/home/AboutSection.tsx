@@ -16,10 +16,10 @@ const AboutSection = () => {
               </div>
               <h2 className="section-title">Working Towards a Better Tomorrow</h2>
               <p className="text-foreground/80 text-lg">
-                EcoAlliance is a non-profit organization dedicated to the protection of animal welfare, human rights, and environmental conservation. We believe that these three elements are interconnected and essential for a sustainable future.
+                EcoAlliance unites passionate advocates to create lasting solutions for animal welfare, human rights, and environmental sustainability through collaborative action.
               </p>
               <p className="text-foreground/80">
-                Founded in 2008, we have grown from a small group of passionate individuals to a global network of activists, scientists, and volunteers committed to making a positive impact on our planet. Our approach is holistic, recognizing that the well-being of animals, people, and the environment are intrinsically linked.
+                Since 2008, we've grown from community-based initiatives to an international organization working across five continents. Our integrated approach recognizes that the wellbeing of our planet requires harmony between all its inhabitants—human and non-human alike.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
@@ -63,7 +63,7 @@ const AboutSection = () => {
             
             <div className="absolute -bottom-6 -right-6 p-6 glass-dark rounded-2xl max-w-xs hidden md:block">
               <p className="text-foreground/80 text-sm italic">
-                "The future of our planet depends on the harmony between humans, animals, and nature. We are committed to fostering this harmony."
+                "The future of our planet depends on recognizing the interconnected welfare of humans, animals, and ecosystems. Together, we can create lasting change."
               </p>
               <p className="text-right mt-2 text-sm font-medium">- Jane Thompson, Founder</p>
             </div>
