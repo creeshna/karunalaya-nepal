@@ -24,12 +24,12 @@ const About = () => {
                   Karunalaya Nepal is a non-profit organization based in Bharatpur-1, Chitwan, Nepal, dedicated to creating a compassionate and sustainable future. Our mission is to foster harmony between humans, animals and nature by promoting ethical living, environmental conservation and social justice.
                 </p>
                 
-                <h2>Our Vision</h2>
+                <h2 className="font-bold">Our Vision</h2>
                 <p>
                   We envision a world where kindness, empathy and sustainable practices lead to a balanced coexistence between all living beings.
                 </p>
                 
-                <h2>Our Mission</h2>
+                <h2 className="font-bold">Our Mission</h2>
                 <ul>
                   <li>To promote the ethical treatment of animals and advocate for animal welfare.</li>
                   <li>To raise awareness about environmental conservation and sustainability.</li>
@@ -37,9 +37,9 @@ const About = () => {
                   <li>To encourage plant-based lifestyles for ethical, environmental and health benefits.</li>
                 </ul>
                 
-                <h2>Our Programs & Initiatives</h2>
+                <h2 className="font-bold">Our Programs & Initiatives</h2>
                 
-                <h3>1. Animal Welfare & Advocacy</h3>
+                <h3 className="font-bold">1. Animal Welfare & Advocacy</h3>
                 <p>
                   We work towards ending animal cruelty and promoting responsible pet ownership. Our initiatives include:
                 </p>
@@ -49,7 +49,7 @@ const About = () => {
                   <li>Advocating for policies to protect animals from exploitation.</li>
                 </ul>
                 
-                <h3>2. Environmental Conservation</h3>
+                <h3 className="font-bold">2. Environmental Conservation</h3>
                 <p>
                   Karunalaya Nepal actively participates in environmental protection programs, including:
                 </p>
@@ -59,7 +59,7 @@ const About = () => {
                   <li>Promoting sustainable agricultural practices and eco-friendly solutions.</li>
                 </ul>
                 
-                <h3>3. Human Rights & Social Justice</h3>
+                <h3 className="font-bold">3. Human Rights & Social Justice</h3>
                 <p>
                   We believe that compassion extends beyond animals and nature—it also includes human rights. Our focus areas include:
                 </p>
@@ -69,7 +69,7 @@ const About = () => {
                   <li>Supporting marginalized communities through skill development programs.</li>
                 </ul>
                 
-                <h3>4. Plant-Based Lifestyle Promotion</h3>
+                <h3 className="font-bold">4. Plant-Based Lifestyle Promotion</h3>
                 <p>
                   As part of our commitment to sustainability and ethical living, we encourage plant-based diets by:
                 </p>
