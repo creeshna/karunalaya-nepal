@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowRight, Shield, Users, Globe } from 'lucide-react';
+import { ArrowRight, Shield, Users, Globe, Leaf } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const AboutSection = () => {
@@ -14,29 +14,34 @@ const AboutSection = () => {
               <div className="inline-block">
                 <div className="section-subtitle">About Us</div>
               </div>
-              <h2 className="section-title">Working Towards a Better Tomorrow</h2>
+              <h2 className="section-title">Karunalaya Nepal</h2>
               <p className="text-foreground/80 text-lg">
-                EcoAlliance unites passionate advocates to create lasting solutions for animal welfare, human rights, and environmental sustainability through collaborative action.
+                Karunalaya Nepal is a non-profit organization based in Bharatpur-1, Chitwan, Nepal, dedicated to creating a compassionate and sustainable future through harmony between humans, animals and nature.
               </p>
               <p className="text-foreground/80">
-                Since 2008, we've grown from community-based initiatives to an international organization working across five continents. Our integrated approach recognizes that the wellbeing of our planet requires harmony between all its inhabitants—human and non-human alike.
+                Our vision is a world where kindness, empathy and sustainable practices lead to a balanced coexistence between all living beings. We promote ethical living, environmental conservation and social justice.
               </p>
               
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
+              <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 pt-4">
                 <div className="flex flex-col items-center text-center p-4 glass hover-lift">
                   <Shield className="h-8 w-8 text-brand-500 mb-3" />
                   <h3 className="font-medium mb-1">Animal Welfare</h3>
-                  <p className="text-sm text-foreground/70">Protecting and advocating for animals worldwide</p>
+                  <p className="text-sm text-foreground/70">Protecting animals from cruelty</p>
                 </div>
                 <div className="flex flex-col items-center text-center p-4 glass hover-lift">
                   <Users className="h-8 w-8 text-brand-500 mb-3" />
                   <h3 className="font-medium mb-1">Human Rights</h3>
-                  <p className="text-sm text-foreground/70">Ensuring dignity and equality for all people</p>
+                  <p className="text-sm text-foreground/70">Empowering communities</p>
                 </div>
                 <div className="flex flex-col items-center text-center p-4 glass hover-lift">
                   <Globe className="h-8 w-8 text-brand-500 mb-3" />
-                  <h3 className="font-medium mb-1">Environmental</h3>
-                  <p className="text-sm text-foreground/70">Preserving and restoring natural ecosystems</p>
+                  <h3 className="font-medium mb-1">Environment</h3>
+                  <p className="text-sm text-foreground/70">Conservation initiatives</p>
+                </div>
+                <div className="flex flex-col items-center text-center p-4 glass hover-lift">
+                  <Leaf className="h-8 w-8 text-brand-500 mb-3" />
+                  <h3 className="font-medium mb-1">Plant-Based</h3>
+                  <p className="text-sm text-foreground/70">Sustainable lifestyles</p>
                 </div>
               </div>
               
@@ -63,9 +68,9 @@ const AboutSection = () => {
             
             <div className="absolute -bottom-6 -right-6 p-6 glass-dark rounded-2xl max-w-xs hidden md:block">
               <p className="text-foreground/80 text-sm italic">
-                "The future of our planet depends on recognizing the interconnected welfare of humans, animals, and ecosystems. Together, we can create lasting change."
+                "Together for lives, rights and nature. We envision a world where kindness and sustainable practices lead to balanced coexistence."
               </p>
-              <p className="text-right mt-2 text-sm font-medium">- Jane Thompson, Founder</p>
+              <p className="text-right mt-2 text-sm font-medium">- Karunalaya Nepal</p>
             </div>
           </div>
         </div>
