@@ -9,61 +9,61 @@ const Blog = () => {
   const categories = [
     "All",
     "Conservation",
-    "Human Rights",
-    "Environmental",
     "Animal Welfare",
+    "Environmental",
+    "Human Rights",
     "Sustainable Development"
   ];
 
   const posts = [
     {
-      title: 'Protecting Endangered Species in Southeast Asia',
-      excerpt: 'Our latest conservation efforts have shown promising results for tiger populations in the region. Learn about the challenges and successes of our ongoing work.',
-      image: 'https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      date: 'April 16, 2023',
-      author: 'Dr. Michael Chen',
-      category: 'Conservation',
+      title: 'Stray Dog Population Management in Nepal',
+      excerpt: 'Karunalaya Nepal has been working to address the growing stray dog population in Chitwan through humane methods including vaccination, sterilization, and community education programs.',
+      image: 'https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      date: 'November 18, 2023',
+      author: 'Karunalaya Nepal Team',
+      category: 'Animal Welfare',
       featured: true
     },
     {
-      title: 'Clean Water Initiative Reaches 10,000 People',
-      excerpt: 'Our project to provide clean drinking water has surpassed its initial goals, now serving over 10,000 people in rural communities.',
-      image: 'https://images.unsplash.com/photo-1541264714593-54bd99d1e4dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      date: 'March 28, 2023',
-      author: 'Sarah Johnson',
-      category: 'Human Rights'
-    },
-    {
-      title: 'Reforestation Project in the Amazon Makes Progress',
-      excerpt: 'With the help of local communities, we have planted over 50,000 trees in deforested areas of the Amazon rainforest over the past year.',
-      image: 'https://images.unsplash.com/photo-1460237612588-fbf11dfd5a5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
-      date: 'February 12, 2023',
-      author: 'Carlos Mendez',
-      category: 'Environmental'
-    },
-    {
-      title: 'New Legislation to Protect Wildlife Corridors',
-      excerpt: 'Recent policy changes will establish protected wildlife corridors, allowing safe migration for numerous species threatened by habitat fragmentation.',
-      image: 'https://images.unsplash.com/photo-1551708919-ee123f932fb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80',
-      date: 'January 30, 2023',
-      author: 'Emma Williams',
+      title: 'Addressing Wildlife-Human Conflict in Buffer Zones',
+      excerpt: 'Our team is working with communities living in buffer zones around Chitwan National Park to reduce conflicts between humans and wildlife through education and sustainable practices.',
+      image: 'https://images.unsplash.com/photo-1598894177254-1b160e310169?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      date: 'October 5, 2023',
+      author: 'Karunalaya Nepal Team',
       category: 'Conservation'
     },
     {
-      title: 'Sustainable Farming Practices in Developing Regions',
-      excerpt: 'Our agricultural programs are helping farmers implement sustainable practices that increase yields while protecting the environment.',
-      image: 'https://images.unsplash.com/photo-1592982537447-7440770cbfc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80',
-      date: 'January 15, 2023',
-      author: 'Robert Kim',
-      category: 'Sustainable Development'
+      title: 'Plastic Pollution Crisis in Nepal\'s Rivers',
+      excerpt: 'Karunalaya Nepal is leading cleanup efforts in local waterways and implementing education programs to reduce single-use plastic consumption in Chitwan region.',
+      image: 'https://images.unsplash.com/photo-1621451537084-482c73073a0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80',
+      date: 'September 12, 2023',
+      author: 'Karunalaya Nepal Team',
+      category: 'Environmental'
     },
     {
-      title: 'Animal Rescue Center Celebrates 5 Years',
-      excerpt: 'Our wildlife rehabilitation center has successfully treated and released over 1,000 animals back into their natural habitats.',
-      image: 'https://images.unsplash.com/photo-1546182990-dffeafbe841d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1218&q=80',
-      date: 'December 8, 2022',
-      author: 'Aisha Patel',
-      category: 'Animal Welfare'
+      title: 'Deforestation Impact on Nepal\'s Biodiversity',
+      excerpt: 'Our research shows alarming rates of habitat loss in central Nepal and our team is working with local communities on sustainable alternatives to timber harvesting.',
+      image: 'https://images.unsplash.com/photo-1615874694520-474822394e73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80',
+      date: 'August 24, 2023',
+      author: 'Karunalaya Nepal Team',
+      category: 'Environmental'
+    },
+    {
+      title: 'Community-Based Wildlife Conservation Success',
+      excerpt: 'Local communities in Chitwan are taking ownership of conservation efforts with guidance from Karunalaya Nepal, resulting in increased wildlife populations and reduced poaching.',
+      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      date: 'July 15, 2023',
+      author: 'Karunalaya Nepal Team',
+      category: 'Conservation'
+    },
+    {
+      title: 'Sustainable Farming Initiatives in Rural Nepal',
+      excerpt: 'Our agricultural programs are helping farmers implement sustainable practices that increase yields while protecting the environment and reducing human-wildlife conflicts.',
+      image: 'https://images.unsplash.com/photo-1589834390005-5d4fb9bf3d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80',
+      date: 'June 30, 2023',
+      author: 'Karunalaya Nepal Team',
+      category: 'Sustainable Development'
     },
   ];
 

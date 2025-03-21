@@ -6,27 +6,27 @@ import { Calendar, User, ArrowRight } from 'lucide-react';
 const BlogSection = () => {
   const posts = [
     {
-      title: 'Protecting Endangered Species in Southeast Asia',
-      excerpt: 'Our latest conservation efforts have shown promising results for tiger populations...',
-      image: 'https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      date: 'April 16, 2023',
-      author: 'Dr. Michael Chen',
+      title: 'Stray Dog Population Management in Nepal',
+      excerpt: 'Karunalaya Nepal has been working to address the growing stray dog population in Chitwan...',
+      image: 'https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      date: 'November 18, 2023',
+      author: 'Karunalaya Nepal Team',
+      category: 'Animal Welfare'
+    },
+    {
+      title: 'Addressing Wildlife-Human Conflict in Buffer Zones',
+      excerpt: 'Our team is working with communities living in buffer zones around Chitwan National Park...',
+      image: 'https://images.unsplash.com/photo-1598894177254-1b160e310169?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+      date: 'October 5, 2023',
+      author: 'Karunalaya Nepal Team',
       category: 'Conservation'
     },
     {
-      title: 'Clean Water Initiative Reaches 10,000 People',
-      excerpt: 'Our project to provide clean drinking water has surpassed its initial goals...',
-      image: 'https://images.unsplash.com/photo-1541264714593-54bd99d1e4dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      date: 'March 28, 2023',
-      author: 'Sarah Johnson',
-      category: 'Human Rights'
-    },
-    {
-      title: 'Reforestation Project in the Amazon Makes Progress',
-      excerpt: 'With the help of local communities, we have planted over 50,000 trees...',
-      image: 'https://images.unsplash.com/photo-1460237612588-fbf11dfd5a5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
-      date: 'February 12, 2023',
-      author: 'Carlos Mendez',
+      title: 'Plastic Pollution Crisis in Nepal\'s Rivers',
+      excerpt: 'Karunalaya Nepal is leading cleanup efforts in local waterways and implementing education programs...',
+      image: 'https://images.unsplash.com/photo-1621451537084-482c73073a0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80',
+      date: 'September 12, 2023',
+      author: 'Karunalaya Nepal Team',
       category: 'Environmental'
     }
   ];
