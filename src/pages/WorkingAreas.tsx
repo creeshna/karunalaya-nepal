@@ -5,112 +5,57 @@ import Footer from '../components/layout/Footer';
 import PageTransition from '../components/layout/PageTransition';
 import { 
   Leaf, 
-  Shield, 
+  Scale, 
   Users, 
-  TreePine, 
-  Droplets, 
-  PawPrint, 
-  Building2, 
-  HeartHandshake
+  Heart, 
+  Accessibility, 
+  Globe,
+  PawPrint
 } from 'lucide-react';
 
 const WorkingAreas = () => {
   const areas = [
     {
-      title: 'Wildlife Conservation',
-      description: 'We work to protect endangered species and their habitats, combat wildlife trafficking, and promote coexistence between humans and wildlife.',
-      icon: PawPrint,
-      color: 'bg-amber-100',
-      iconColor: 'text-amber-600',
-      projects: [
-        'Tiger conservation in Southeast Asia',
-        'Marine wildlife protection in coastal regions',
-        'Anti-poaching initiatives in protected areas'
-      ]
+      title: 'LGBTQIA+ Empowerment',
+      description: 'Supporting and advocating for the rights, dignity, and inclusion of LGBTQIA+ individuals through education, community building, and policy advocacy.',
+      icon: Heart,
+      color: 'bg-pink-100',
+      iconColor: 'text-pink-600'
     },
     {
-      title: 'Human Rights',
-      description: 'We advocate for the dignity, equality, and justice for all people, with a focus on communities affected by environmental degradation and resource exploitation.',
-      icon: Users,
+      title: 'Disability Rights & Inclusion',
+      description: 'Working to create accessible environments and inclusive communities where people with disabilities can fully participate and thrive.',
+      icon: Accessibility,
       color: 'bg-blue-100',
-      iconColor: 'text-blue-600',
-      projects: [
-        'Indigenous land rights protection',
-        'Environmental justice for vulnerable communities',
-        'Access to clean water as a human right'
-      ]
+      iconColor: 'text-blue-600'
     },
     {
-      title: 'Reforestation',
-      description: 'We restore forests to combat climate change, prevent soil erosion, protect biodiversity, and support local livelihoods dependent on forest ecosystems.',
-      icon: TreePine,
-      color: 'bg-green-100',
-      iconColor: 'text-green-600',
-      projects: [
-        'Amazon rainforest restoration',
-        'Community-based agroforestry initiatives',
-        'Urban reforestation programs'
-      ]
-    },
-    {
-      title: 'Clean Water',
-      description: 'We work to ensure access to clean water for communities and ecosystems, addressing pollution, scarcity, and the sustainable management of water resources.',
-      icon: Droplets,
-      color: 'bg-cyan-100',
-      iconColor: 'text-cyan-600',
-      projects: [
-        'Watershed protection and restoration',
-        'Community water purification systems',
-        'River cleanup and monitoring programs'
-      ]
+      title: 'Women's Empowerment',
+      description: 'Supporting women through education, economic opportunities, and advocacy to challenge gender inequalities and promote women's leadership.',
+      icon: Users,
+      color: 'bg-purple-100',
+      iconColor: 'text-purple-600'
     },
     {
       title: 'Animal Welfare',
-      description: 'We improve the lives of domesticated and wild animals through rescue and rehabilitation, policy advocacy, and educational programs promoting compassionate treatment.',
-      icon: Shield,
-      color: 'bg-purple-100',
-      iconColor: 'text-purple-600',
-      projects: [
-        'Animal rescue and rehabilitation centers',
-        'Humane education programs',
-        'Alternatives to animal testing advocacy'
-      ]
+      description: 'Protecting animals from suffering and promoting their wellbeing through rescue, rehabilitation, education, and advocacy for compassionate treatment.',
+      icon: PawPrint,
+      color: 'bg-amber-100',
+      iconColor: 'text-amber-600'
     },
     {
-      title: 'Sustainable Development',
-      description: 'We promote ecological solutions for urban and rural communities, integrating environmental protection with economic development and social equity.',
-      icon: Building2,
-      color: 'bg-orange-100',
-      iconColor: 'text-orange-600',
-      projects: [
-        'Sustainable agriculture and food systems',
-        'Eco-friendly urban planning',
-        'Green energy initiatives for remote communities'
-      ]
-    },
-    {
-      title: 'Environmental Education',
-      description: 'We spread awareness and knowledge about ecological issues, empowering individuals and communities to take action through informed decision-making.',
+      title: 'Environmental Conservation',
+      description: 'Protecting natural ecosystems and promoting sustainable practices to mitigate climate change and preserve biodiversity for future generations.',
       icon: Leaf,
-      color: 'bg-emerald-100',
-      iconColor: 'text-emerald-600',
-      projects: [
-        'School-based environmental curriculum',
-        'Public awareness campaigns',
-        'Training for environmental leaders'
-      ]
+      color: 'bg-green-100',
+      iconColor: 'text-green-600'
     },
     {
-      title: 'Community Support',
-      description: 'We empower local communities to protect their environment and improve their well-being through participatory approaches and capacity building.',
-      icon: HeartHandshake,
+      title: 'Human Rights',
+      description: 'Advocating for the fundamental rights, dignity, and equal treatment of all people regardless of their background, identity, or circumstances.',
+      icon: Scale,
       color: 'bg-red-100',
-      iconColor: 'text-red-600',
-      projects: [
-        'Community-based conservation initiatives',
-        'Sustainable livelihood programs',
-        'Local environmental stewardship training'
-      ]
+      iconColor: 'text-red-600'
     },
   ];
 
@@ -123,37 +68,48 @@ const WorkingAreas = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <div className="section-subtitle">What We Do</div>
-              <h1 className="section-title text-4xl md:text-5xl">Our Working Areas</h1>
-              <p className="section-description mx-auto">
-                We focus on critical issues affecting our planet and its inhabitants, taking a holistic approach to create lasting positive change.
-              </p>
+              <h1 className="section-title text-4xl md:text-5xl">Our Mission</h1>
+              
+              <div className="max-w-3xl mx-auto mt-8">
+                <div className="flex justify-center mb-8">
+                  <img 
+                    src="/lovable-uploads/5cbf3ace-8ae0-4090-9b40-45846d73feb2.png" 
+                    alt="Karunalaya Nepal Logo" 
+                    className="h-48 w-auto"
+                  />
+                </div>
+                
+                <p className="text-lg mb-8">
+                  We envision a world where humans, animals and nature thrive together in harmony. Through advocacy, education, workshops and action, we work to reduce conflicts, foster compassion and promote sustainable practices for a brighter, more inclusive future.
+                </p>
+              </div>
             </div>
             
-            <div className="space-y-16">
+            <div className="space-y-8 mb-12">
+              <h2 className="text-2xl font-medium text-center mb-8">Our mission extends to:</h2>
+              
               {areas.map((area, index) => (
-                <div key={index} className="glass p-8 rounded-2xl">
-                  <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-                    <div className="md:col-span-1">
-                      <div className={`rounded-xl ${area.color} p-6 inline-flex`}>
-                        <area.icon className={`h-12 w-12 ${area.iconColor}`} />
-                      </div>
+                <div key={index} className="glass p-6 rounded-xl">
+                  <div className="flex flex-col md:flex-row items-center gap-6">
+                    <div className={`rounded-full ${area.color} p-6 flex-shrink-0`}>
+                      <area.icon className={`h-8 w-8 ${area.iconColor}`} />
                     </div>
-                    <div className="md:col-span-3">
-                      <h2 className="text-2xl font-medium mb-4">{area.title}</h2>
-                      <p className="text-foreground/80 mb-6">{area.description}</p>
-                      
-                      <div className="mb-4">
-                        <h3 className="font-medium mb-2">Current Projects</h3>
-                        <ul className="list-disc pl-5 space-y-1 text-foreground/70">
-                          {area.projects.map((project, idx) => (
-                            <li key={idx}>{project}</li>
-                          ))}
-                        </ul>
-                      </div>
+                    <div>
+                      <h3 className="text-xl font-medium mb-2 text-center md:text-left">{area.title}</h3>
+                      <p className="text-foreground/80">{area.description}</p>
                     </div>
                   </div>
                 </div>
               ))}
+            </div>
+            
+            <div className="max-w-3xl mx-auto text-center p-8 glass rounded-xl">
+              <p className="text-lg mb-4">
+                Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard.
+              </p>
+              <p className="text-xl font-medium">
+                Join us in building a future of "One Health, One Earth" Compassion in Action for All.
+              </p>
             </div>
           </div>
         </main>

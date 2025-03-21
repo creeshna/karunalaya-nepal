@@ -20,27 +20,12 @@ const AboutSection = () => {
                 Our vision is a world where kindness, empathy and sustainable practices lead to a balanced coexistence between all living beings. We promote ethical living, environmental conservation and social justice.
               </p>
               
-              <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 pt-4">
-                <div className="flex flex-col items-center text-center p-4 glass hover-lift">
-                  <Shield className="h-8 w-8 text-brand-500 mb-3" />
-                  <h3 className="font-medium mb-1">Animal Welfare</h3>
-                  <p className="text-sm text-foreground/70">Protecting animals from cruelty</p>
-                </div>
-                <div className="flex flex-col items-center text-center p-4 glass hover-lift">
-                  <Users className="h-8 w-8 text-brand-500 mb-3" />
-                  <h3 className="font-medium mb-1">Human Rights</h3>
-                  <p className="text-sm text-foreground/70">Empowering communities</p>
-                </div>
-                <div className="flex flex-col items-center text-center p-4 glass hover-lift">
-                  <Globe className="h-8 w-8 text-brand-500 mb-3" />
-                  <h3 className="font-medium mb-1">Environment</h3>
-                  <p className="text-sm text-foreground/70">Conservation initiatives</p>
-                </div>
-                <div className="flex flex-col items-center text-center p-4 glass hover-lift">
-                  <Leaf className="h-8 w-8 text-brand-500 mb-3" />
-                  <h3 className="font-medium mb-1">Plant-Based</h3>
-                  <p className="text-sm text-foreground/70">Sustainable lifestyles</p>
-                </div>
+              <div className="flex justify-center lg:justify-start mt-6">
+                <img 
+                  src="/lovable-uploads/5cbf3ace-8ae0-4090-9b40-45846d73feb2.png" 
+                  alt="Karunalaya Nepal Logo" 
+                  className="h-36 w-auto"
+                />
               </div>
               
               <Link to="/about" className="inline-flex items-center group">

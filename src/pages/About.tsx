@@ -18,6 +18,14 @@ const About = () => {
                 <p className="text-xl text-foreground/80 mt-4">(Compassionate Nepal): Fostering Compassion and Sustainability</p>
               </div>
               
+              <div className="flex justify-center mb-12">
+                <img 
+                  src="/lovable-uploads/5cbf3ace-8ae0-4090-9b40-45846d73feb2.png" 
+                  alt="Karunalaya Nepal Logo" 
+                  className="h-48 w-auto"
+                />
+              </div>
+              
               <div className="prose prose-lg mx-auto">
                 <p className="lead text-xl text-foreground/80">
                   Karunalaya Nepal is a non-profit organization based in Bharatpur-1, Chitwan, Nepal, dedicated to creating a compassionate and sustainable future. Our mission is to foster harmony between humans, animals and nature by promoting ethical living, environmental conservation and social justice.
@@ -25,58 +33,25 @@ const About = () => {
                 
                 <h2 className="font-bold">Our Vision</h2>
                 <p>
-                  We envision a world where kindness, empathy and sustainable practices lead to a balanced coexistence between all living beings.
+                  We envision a world where humans, animals and nature thrive together in harmony. Through advocacy, education, workshops and action, we work to reduce conflicts, foster compassion and promote sustainable practices for a brighter, more inclusive future.
                 </p>
                 
                 <h2 className="font-bold">Our Mission</h2>
-                <ul className="list-disc pl-6">
-                  <li>To promote the ethical treatment of animals and advocate for animal welfare.</li>
-                  <li>To raise awareness about environmental conservation and sustainability.</li>
-                  <li>To empower marginalized communities through education and social initiatives.</li>
-                  <li>To encourage plant-based lifestyles for ethical, environmental and health benefits.</li>
-                </ul>
-                
-                <h2 className="font-bold">Our Programs & Initiatives</h2>
-                
-                <h3 className="font-bold">1. Animal Welfare & Advocacy</h3>
                 <p>
-                  We work towards ending animal cruelty and promoting responsible pet ownership. Our initiatives include:
+                  Our mission extends to:
                 </p>
                 <ul className="list-disc pl-6">
-                  <li>Rescuing and rehabilitating injured and abandoned animals.</li>
-                  <li>Conducting awareness campaigns on animal rights and humane treatment.</li>
-                  <li>Advocating for policies to protect animals from exploitation.</li>
+                  <li><strong>LGBTQIA+ Empowerment:</strong> Supporting and advocating for the rights, dignity, and inclusion of LGBTQIA+ individuals.</li>
+                  <li><strong>Disability Rights & Inclusion:</strong> Working to create accessible environments and inclusive communities.</li>
+                  <li><strong>Women's Empowerment:</strong> Supporting women through education, economic opportunities, and advocacy.</li>
+                  <li><strong>Animal Welfare:</strong> Protecting animals from suffering and promoting their wellbeing.</li>
+                  <li><strong>Environmental Conservation:</strong> Protecting natural ecosystems and promoting sustainable practices.</li>
+                  <li><strong>Human Rights:</strong> Advocating for the fundamental rights, dignity, and equal treatment of all people.</li>
                 </ul>
                 
-                <h3 className="font-bold">2. Environmental Conservation</h3>
-                <p>
-                  Karunalaya Nepal actively participates in environmental protection programs, including:
+                <p className="text-lg mt-8">
+                  Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard. Join us in building a future of "One Health, One Earth" Compassion in Action for All.
                 </p>
-                <ul className="list-disc pl-6">
-                  <li>Organizing clean-up drives to reduce pollution, particularly plastic waste.</li>
-                  <li>Conducting tree-planting campaigns to restore green spaces.</li>
-                  <li>Promoting sustainable agricultural practices and eco-friendly solutions.</li>
-                </ul>
-                
-                <h3 className="font-bold">3. Human Rights & Social Justice</h3>
-                <p>
-                  We believe that compassion extends beyond animals and nature—it also includes human rights. Our focus areas include:
-                </p>
-                <ul className="list-disc pl-6">
-                  <li>Advocating for gender equality and empowering women and non-binary individuals.</li>
-                  <li>Conducting human rights education workshops in schools and communities.</li>
-                  <li>Supporting marginalized communities through skill development programs.</li>
-                </ul>
-                
-                <h3 className="font-bold">4. Plant-Based Lifestyle Promotion</h3>
-                <p>
-                  As part of our commitment to sustainability and ethical living, we encourage plant-based diets by:
-                </p>
-                <ul className="list-disc pl-6">
-                  <li>Organizing food festivals and cooking workshops featuring plant-based meals.</li>
-                  <li>Educating people on the benefits of plant-based eating for health, the environment and animals.</li>
-                  <li>Partnering with local restaurants and businesses to increase plant-based food options.</li>
-                </ul>
               </div>
             </div>
           </div>
