@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MapPin, Phone, Mail, Send } from 'lucide-react';
+import { MapPin, Phone, Mail, Send, Globe, Instagram, Linkedin } from 'lucide-react';
 
 const ContactSection = () => {
   return (
@@ -22,21 +22,25 @@ const ContactSection = () => {
                 <div className="flex items-start">
                   <MapPin className="h-5 w-5 text-brand-500 mr-3 mt-0.5" />
                   <p className="text-foreground/80">
-                    123 Nature Street<br />
-                    Green City, EC012345<br />
-                    Earth
+                    Bharatpur-1, Chitwan, Nepal
                   </p>
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-brand-500 mr-3" />
-                  <a href="tel:+1234567890" className="text-foreground/80 hover:text-brand-600 transition-colors">
-                    +123 456 7890
+                  <a href="tel:+9779855078721" className="text-foreground/80 hover:text-brand-600 transition-colors">
+                    056-593021, 9855078721
                   </a>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-brand-500 mr-3" />
-                  <a href="mailto:info@ecoalliance.org" className="text-foreground/80 hover:text-brand-600 transition-colors">
-                    info@ecoalliance.org
+                  <a href="mailto:Creeshnaneure@gmail.com" className="text-foreground/80 hover:text-brand-600 transition-colors">
+                    Creeshnaneure@gmail.com
+                  </a>
+                </div>
+                <div className="flex items-center">
+                  <Globe className="h-5 w-5 text-brand-500 mr-3" />
+                  <a href="https://www.karunalayanepal.org" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-brand-600 transition-colors">
+                    www.karunalayanepal.org
                   </a>
                 </div>
               </div>
@@ -60,6 +64,20 @@ const ContactSection = () => {
                   </tr>
                 </tbody>
               </table>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-medium mb-4">Follow Us</h3>
+              <div className="flex space-x-4">
+                <a href="https://www.instagram.com/karunalayanepal/" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-brand-600 transition-colors">
+                  <Instagram className="h-5 w-5 mr-2" />
+                  <span>Instagram</span>
+                </a>
+                <a href="https://www.linkedin.com/in/karunalayanepal" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-brand-600 transition-colors">
+                  <Linkedin className="h-5 w-5 mr-2" />
+                  <span>LinkedIn</span>
+                </a>
+              </div>
             </div>
           </div>
 

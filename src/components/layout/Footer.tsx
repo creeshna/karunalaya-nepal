@@ -6,9 +6,9 @@ import {
   Phone, 
   MapPin, 
   Facebook, 
-  Twitter, 
   Instagram, 
-  Youtube,
+  Linkedin,
+  Globe,
   Heart
 } from 'lucide-react';
 
@@ -26,17 +26,11 @@ const Footer = () => {
               Together for lives, rights and nature. We are dedicated to creating a better world for all living beings.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-brand-500 transition">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-brand-500 transition">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-brand-500 transition">
+              <a href="https://www.instagram.com/karunalayanepal/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-brand-500 transition">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-brand-500 transition">
-                <Youtube className="h-5 w-5" />
+              <a href="https://www.linkedin.com/in/karunalayanepal" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-brand-500 transition">
+                <Linkedin className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -69,19 +63,25 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-brand-500 mr-3 mt-0.5" />
                 <p className="text-muted-foreground">
-                  123 Nature Street, Green City, EC012345, Earth
+                  Bharatpur-1, Chitwan, Nepal
                 </p>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-brand-500 mr-3" />
-                <a href="tel:+1234567890" className="text-muted-foreground hover:text-brand-500 transition">
-                  +123 456 7890
+                <a href="tel:+9779855078721" className="text-muted-foreground hover:text-brand-500 transition">
+                  056-593021, 9855078721
                 </a>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-brand-500 mr-3" />
-                <a href="mailto:info@karunalaya.org" className="text-muted-foreground hover:text-brand-500 transition">
-                  info@karunalaya.org
+                <a href="mailto:Creeshnaneure@gmail.com" className="text-muted-foreground hover:text-brand-500 transition">
+                  Creeshnaneure@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center">
+                <Globe className="h-5 w-5 text-brand-500 mr-3" />
+                <a href="https://www.karunalayanepal.org" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-brand-500 transition">
+                  www.karunalayanepal.org
                 </a>
               </div>
             </div>

@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import PageTransition from '../components/layout/PageTransition';
-import { MapPin, Phone, Mail, Send, Clock, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { MapPin, Phone, Mail, Send, Clock, Globe, Instagram, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -30,21 +30,25 @@ const Contact = () => {
                       <div className="flex items-start">
                         <MapPin className="h-5 w-5 text-brand-500 mr-3 mt-0.5" />
                         <p className="text-foreground/80">
-                          123 Nature Street<br />
-                          Green City, EC012345<br />
-                          Earth
+                          Bharatpur-1, Chitwan, Nepal
                         </p>
                       </div>
                       <div className="flex items-center">
                         <Phone className="h-5 w-5 text-brand-500 mr-3" />
-                        <a href="tel:+1234567890" className="text-foreground/80 hover:text-brand-600 transition-colors">
-                          +123 456 7890
+                        <a href="tel:+9779855078721" className="text-foreground/80 hover:text-brand-600 transition-colors">
+                          056-593021, 9855078721
                         </a>
                       </div>
                       <div className="flex items-center">
                         <Mail className="h-5 w-5 text-brand-500 mr-3" />
-                        <a href="mailto:info@ecoalliance.org" className="text-foreground/80 hover:text-brand-600 transition-colors">
-                          info@ecoalliance.org
+                        <a href="mailto:Creeshnaneure@gmail.com" className="text-foreground/80 hover:text-brand-600 transition-colors">
+                          Creeshnaneure@gmail.com
+                        </a>
+                      </div>
+                      <div className="flex items-center">
+                        <Globe className="h-5 w-5 text-brand-500 mr-3" />
+                        <a href="https://www.karunalayanepal.org" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-brand-600 transition-colors">
+                          www.karunalayanepal.org
                         </a>
                       </div>
                     </div>
@@ -79,18 +83,14 @@ const Contact = () => {
                   
                   <div className="glass p-6 rounded-2xl">
                     <h2 className="text-xl font-medium mb-4">Follow Us</h2>
-                    <div className="flex space-x-4">
-                      <a href="#" className="p-2 bg-secondary rounded-full text-foreground hover:text-brand-500 transition">
-                        <Facebook className="h-5 w-5" />
+                    <div className="space-y-3">
+                      <a href="https://www.instagram.com/karunalayanepal/" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-brand-500 transition p-2 rounded-md hover:bg-background/50">
+                        <Instagram className="h-5 w-5 mr-3" />
+                        <span>Instagram</span>
                       </a>
-                      <a href="#" className="p-2 bg-secondary rounded-full text-foreground hover:text-brand-500 transition">
-                        <Twitter className="h-5 w-5" />
-                      </a>
-                      <a href="#" className="p-2 bg-secondary rounded-full text-foreground hover:text-brand-500 transition">
-                        <Instagram className="h-5 w-5" />
-                      </a>
-                      <a href="#" className="p-2 bg-secondary rounded-full text-foreground hover:text-brand-500 transition">
-                        <Youtube className="h-5 w-5" />
+                      <a href="https://www.linkedin.com/in/karunalayanepal" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-brand-500 transition p-2 rounded-md hover:bg-background/50">
+                        <Linkedin className="h-5 w-5 mr-3" />
+                        <span>LinkedIn</span>
                       </a>
                     </div>
                   </div>
@@ -163,7 +163,7 @@ const Contact = () => {
               <div className="glass p-4 rounded-2xl overflow-hidden">
                 <div className="aspect-w-16 aspect-h-9">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.11976397304605!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sus!4v1619726436174!5m2!1sen!2sus" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31397712412!2d84.3914621609757!3d27.678676296871337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994fb37e078d531%3A0x973f22922ea845ac!2sBharatpur%2C%20Nepal!5e0!3m2!1sen!2sus!4v1620636142272!5m2!1sen!2sus" 
                     width="100%" 
                     height="450" 
                     style={{ border: 0 }} 
