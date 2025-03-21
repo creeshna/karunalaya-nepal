@@ -14,9 +14,8 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-12">
-                <div className="section-subtitle">About Us</div>
                 <h1 className="section-title text-4xl md:text-5xl">Karunalaya Nepal</h1>
-                <p className="text-xl text-foreground/80 mt-4">Fostering Compassion and Sustainability</p>
+                <p className="text-xl text-foreground/80 mt-4">(Compassionate Nepal): Fostering Compassion and Sustainability</p>
               </div>
               
               <div className="prose prose-lg mx-auto">
@@ -30,7 +29,7 @@ const About = () => {
                 </p>
                 
                 <h2 className="font-bold">Our Mission</h2>
-                <ul>
+                <ul className="list-disc pl-6">
                   <li>To promote the ethical treatment of animals and advocate for animal welfare.</li>
                   <li>To raise awareness about environmental conservation and sustainability.</li>
                   <li>To empower marginalized communities through education and social initiatives.</li>
@@ -43,7 +42,7 @@ const About = () => {
                 <p>
                   We work towards ending animal cruelty and promoting responsible pet ownership. Our initiatives include:
                 </p>
-                <ul>
+                <ul className="list-disc pl-6">
                   <li>Rescuing and rehabilitating injured and abandoned animals.</li>
                   <li>Conducting awareness campaigns on animal rights and humane treatment.</li>
                   <li>Advocating for policies to protect animals from exploitation.</li>
@@ -53,7 +52,7 @@ const About = () => {
                 <p>
                   Karunalaya Nepal actively participates in environmental protection programs, including:
                 </p>
-                <ul>
+                <ul className="list-disc pl-6">
                   <li>Organizing clean-up drives to reduce pollution, particularly plastic waste.</li>
                   <li>Conducting tree-planting campaigns to restore green spaces.</li>
                   <li>Promoting sustainable agricultural practices and eco-friendly solutions.</li>
@@ -63,7 +62,7 @@ const About = () => {
                 <p>
                   We believe that compassion extends beyond animals and nature—it also includes human rights. Our focus areas include:
                 </p>
-                <ul>
+                <ul className="list-disc pl-6">
                   <li>Advocating for gender equality and empowering women and non-binary individuals.</li>
                   <li>Conducting human rights education workshops in schools and communities.</li>
                   <li>Supporting marginalized communities through skill development programs.</li>
@@ -73,7 +72,7 @@ const About = () => {
                 <p>
                   As part of our commitment to sustainability and ethical living, we encourage plant-based diets by:
                 </p>
-                <ul>
+                <ul className="list-disc pl-6">
                   <li>Organizing food festivals and cooking workshops featuring plant-based meals.</li>
                   <li>Educating people on the benefits of plant-based eating for health, the environment and animals.</li>
                   <li>Partnering with local restaurants and businesses to increase plant-based food options.</li>

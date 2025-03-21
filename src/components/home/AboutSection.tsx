@@ -11,10 +11,8 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <div className="space-y-6">
-              <div className="inline-block">
-                <div className="section-subtitle">About Us</div>
-              </div>
               <h2 className="section-title">Karunalaya Nepal</h2>
+              <p className="text-sm mb-4">(Compassionate Nepal)</p>
               <p className="text-foreground/80 text-lg">
                 Karunalaya Nepal is a non-profit organization based in Bharatpur-1, Chitwan, Nepal, dedicated to creating a compassionate and sustainable future through harmony between humans, animals and nature.
               </p>

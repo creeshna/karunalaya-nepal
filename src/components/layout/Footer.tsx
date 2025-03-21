@@ -20,7 +20,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-foreground">EcoAlliance</h3>
+            <h3 className="text-lg font-semibold text-foreground">Karunalaya Nepal</h3>
+            <p className="text-sm text-muted-foreground">(Compassionate Nepal)</p>
             <p className="text-muted-foreground">
               Together for lives, rights and nature. We are dedicated to creating a better world for all living beings.
             </p>
@@ -79,8 +80,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-brand-500 mr-3" />
-                <a href="mailto:info@ecoalliance.org" className="text-muted-foreground hover:text-brand-500 transition">
-                  info@ecoalliance.org
+                <a href="mailto:info@karunalaya.org" className="text-muted-foreground hover:text-brand-500 transition">
+                  info@karunalaya.org
                 </a>
               </div>
             </div>
@@ -90,7 +91,7 @@ const Footer = () => {
         <div className="pt-8 mt-8 border-t border-border/50">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              &copy; {currentYear} EcoAlliance. All rights reserved.
+              &copy; {currentYear} Karunalaya Nepal. All rights reserved.
             </p>
             <div className="flex items-center mt-4 md:mt-0">
               <p className="text-muted-foreground text-sm flex items-center">

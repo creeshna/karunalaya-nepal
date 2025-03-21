@@ -41,7 +41,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <NavLink to="/" className="flex items-center">
-            <div className="text-brand-600 text-xl font-bold tracking-tight">EcoAlliance</div>
+            <div className="text-brand-600 text-xl font-bold tracking-tight">Karunalaya Nepal</div>
+            <span className="text-sm ml-2 text-foreground/70">(Compassionate Nepal)</span>
           </NavLink>
 
           {/* Desktop Navigation */}
