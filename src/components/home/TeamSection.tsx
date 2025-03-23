@@ -8,7 +8,7 @@ const TeamSection = () => {
     {
       name: 'Ishwari Prasad Neure',
       role: 'Founder',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      image: '/lovable-uploads/bce5f043-1654-4c65-bfd6-96b05193f177.png',
       bio: 'Dedicated human rights activist, environmental advocate, and social change leader with a background in Social Work.'
     },
     {

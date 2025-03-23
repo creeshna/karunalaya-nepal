@@ -10,7 +10,7 @@ const Team = () => {
     {
       name: 'Ishwari Prasad Neure',
       role: 'Founder',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      image: '/lovable-uploads/bce5f043-1654-4c65-bfd6-96b05193f177.png',
       bio: 'Ishwari Prasad Neure is a dedicated human rights activist, environmental advocate, and social change leader with a background in Social Work, Business Science, and Rural Development. Actively involved with Amnesty International since 2021, Ishwari has been at the forefront of human rights education, youth empowerment, and grassroots advocacy. As the Lead of Project CAP, Bharatpur, under the Plastic-Free Rivers and Seas for South Asia (PLEASE) initiative, Ishwari is committed to reducing plastic pollution through policy advocacy, community engagement and strategic waste management solutions. Passionate about animal welfare and ethical living, Ishwari actively promotes plant-based lifestyles and has contributed to policies against live animal transport.',
       linkedin: '#',
       email: 'ishwari@karunalayanepal.org'
@@ -34,10 +34,18 @@ const Team = () => {
     {
       name: 'Sajita Poudel',
       role: 'Co-Founder',
-      image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      image: '/lovable-uploads/78d9f4b7-d19e-4aa0-a0ad-041d6db831dc.png',
       bio: 'Sajita Poudel is a passionate advocate for social change and the empowerment of individuals with disabilities. Born with a disability herself, she has firsthand experience of the challenges faced by marginalized communities and has dedicated her life to creating a more inclusive society. She holds a Bachelor\'s degree in Humanities and Social Sciences (2068 B.S.) and is currently pursuing her Master\'s degree in Bharatpur, Nepal. From 2020 to 2021, she served as the Coordinator of Better Chitwan, playing a pivotal role in initiatives supporting marginalized communities.',
       linkedin: 'https://linkedin.com/in/sajita-poudel-1b88bb335',
       email: 'sajita@karunalayanepal.org'
+    },
+    {
+      name: 'Sabina Kandel',
+      role: 'Member',
+      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80',
+      bio: 'Sabina Kandel is a Registered Lab Technician from Bharatpur with 10 years of experience in the healthcare field. Currently pursuing a Bachelor\'s degree in Education, she is committed to expanding her skills and knowledge to further her impact on both her professional and community roles. For the past 8 years, Sabina has been an active member of the WAY Group (We are Youth), where she has been a key contributor to weekly cleanup campaigns in Chitwan and Nawalparasi. In recognition of her dedication and community contributions, Sabina was honored with the WOW Women\'s Award on International Women\'s Day 2022.',
+      linkedin: 'https://linkedin.com/in/sabina-kandel-419595323',
+      email: 'sabina@karunalayanepal.org'
     },
   ];
 
