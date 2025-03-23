@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-foreground">Get Involved</h3>
             <nav className="flex flex-col space-y-2">
-              <Link to="/board" className="text-muted-foreground hover:text-brand-500 transition">Our Team</Link>
+              <Link to="/team" className="text-muted-foreground hover:text-brand-500 transition">Our Team</Link>
               <Link to="/donate" className="text-muted-foreground hover:text-brand-500 transition">Donate</Link>
               <Link to="/contact" className="text-muted-foreground hover:text-brand-500 transition">Contact Us</Link>
               <a href="#" className="text-muted-foreground hover:text-brand-500 transition">Volunteer</a>

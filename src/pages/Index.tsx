@@ -5,7 +5,7 @@ import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import Hero from '../components/home/Hero';
 import AboutSection from '../components/home/AboutSection';
-import BoardSection from '../components/home/BoardSection';
+import TeamSection from '../components/home/TeamSection';
 import WorkingAreasSection from '../components/home/WorkingAreasSection';
 import BlogSection from '../components/home/BlogSection';
 import GallerySection from '../components/home/GallerySection';
@@ -20,7 +20,7 @@ const Index = () => {
         <Hero />
         <AboutSection />
         <WorkingAreasSection />
-        <BoardSection />
+        <TeamSection />
         <BlogSection />
         <GallerySection />
         <DonateSection />
