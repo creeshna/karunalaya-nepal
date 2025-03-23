@@ -8,20 +8,27 @@ const TeamSection = () => {
     {
       name: 'Ishwari Prasad Neure',
       role: 'Founder',
-      image: '/lovable-uploads/bce5f043-1654-4c65-bfd6-96b05193f177.png',
       bio: 'Dedicated human rights activist, environmental advocate, and social change leader with a background in Social Work.'
     },
     {
       name: 'Sudha Timalshena',
       role: 'Co-Founder',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80',
       bio: 'Dedicated environmentalist and animal rights activist committed to sustainability and social justice.'
     },
     {
       name: 'Aasna Sapkota',
       role: 'Co-Founder',
-      image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
       bio: 'Passionate advocate for inclusive education and the empowerment of children with disabilities.'
+    },
+    {
+      name: 'Sajita Poudel',
+      role: 'Co-Founder',
+      bio: 'Passionate advocate for social change and the empowerment of individuals with disabilities.'
+    },
+    {
+      name: 'Sabina Kandel',
+      role: 'Member',
+      bio: 'Registered Lab Technician with 10 years of healthcare experience and 8 years of active community service.'
     },
   ];
 
@@ -40,22 +47,11 @@ const TeamSection = () => {
           {teamMembers.map((member, index) => (
             <div 
               key={index} 
-              className="bg-white rounded-2xl overflow-hidden shadow-sm hover-lift"
+              className="bg-white rounded-2xl overflow-hidden shadow-sm hover-lift p-6"
             >
-              <div className="relative">
-                <img 
-                  src={member.image} 
-                  alt={member.name} 
-                  className="w-full h-64 object-cover"
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <h3 className="text-white text-xl font-medium">{member.name}</h3>
-                  <p className="text-white/90 text-sm">{member.role}</p>
-                </div>
-              </div>
-              <div className="p-6">
-                <p className="text-foreground/80">{member.bio}</p>
-              </div>
+              <h3 className="text-xl font-medium mb-2">{member.name}</h3>
+              <p className="text-brand-600 text-sm mb-4">{member.role}</p>
+              <p className="text-foreground/80">{member.bio}</p>
             </div>
           ))}
         </div>

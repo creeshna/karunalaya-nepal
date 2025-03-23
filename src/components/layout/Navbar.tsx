@@ -29,7 +29,6 @@ const Navbar = () => {
     { name: 'Gallery', path: '/gallery' },
     { name: 'Blog', path: '/blog' },
     { name: 'Team', path: '/team' },
-    { name: 'Donate', path: '/donate' },
     { name: 'Contact', path: '/contact' },
   ];
 

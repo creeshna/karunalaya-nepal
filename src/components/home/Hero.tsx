@@ -39,15 +39,15 @@ const Hero = () => {
           {/* Statistics */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16 max-w-3xl mx-auto">
             <div className="glass p-6 animate-fade-in-up animate-delay-300">
-              <h3 className="text-4xl font-bold text-brand-600 mb-2">15+</h3>
-              <p className="text-foreground/70">Years of Impact</p>
+              <h3 className="text-4xl font-bold text-brand-600 mb-2">1+</h3>
+              <p className="text-foreground/70">Year of Impact</p>
             </div>
             <div className="glass p-6 animate-fade-in-up animate-delay-400">
-              <h3 className="text-4xl font-bold text-brand-600 mb-2">50+</h3>
-              <p className="text-foreground/70">Projects Worldwide</p>
+              <h3 className="text-4xl font-bold text-brand-600 mb-2">10+</h3>
+              <p className="text-foreground/70">Projects / Activities</p>
             </div>
             <div className="glass p-6 animate-fade-in-up animate-delay-500">
-              <h3 className="text-4xl font-bold text-brand-600 mb-2">10k+</h3>
+              <h3 className="text-4xl font-bold text-brand-600 mb-2">2k+</h3>
               <p className="text-foreground/70">Lives Improved</p>
             </div>
           </div>
