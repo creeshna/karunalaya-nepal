@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Board from "./pages/Board";
 import WorkingAreas from "./pages/WorkingAreas";
+import Activities from "./pages/Activities";
 import Blog from "./pages/Blog";
 import Gallery from "./pages/Gallery";
 import Donate from "./pages/Donate";
@@ -25,10 +26,11 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
-          <Route path="/board" element={<Board />} />
           <Route path="/working-areas" element={<WorkingAreas />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/activities" element={<Activities />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/board" element={<Board />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

@@ -39,20 +39,20 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-foreground">Quick Links</h3>
             <nav className="flex flex-col space-y-2">
               <Link to="/about" className="text-muted-foreground hover:text-brand-500 transition">About Us</Link>
-              <Link to="/board" className="text-muted-foreground hover:text-brand-500 transition">Board of Directors</Link>
               <Link to="/working-areas" className="text-muted-foreground hover:text-brand-500 transition">Working Areas</Link>
-              <Link to="/blog" className="text-muted-foreground hover:text-brand-500 transition">Blog</Link>
+              <Link to="/activities" className="text-muted-foreground hover:text-brand-500 transition">Activities</Link>
               <Link to="/gallery" className="text-muted-foreground hover:text-brand-500 transition">Gallery</Link>
+              <Link to="/blog" className="text-muted-foreground hover:text-brand-500 transition">Blog</Link>
             </nav>
           </div>
 
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-foreground">Get Involved</h3>
             <nav className="flex flex-col space-y-2">
+              <Link to="/board" className="text-muted-foreground hover:text-brand-500 transition">Our Team</Link>
               <Link to="/donate" className="text-muted-foreground hover:text-brand-500 transition">Donate</Link>
               <Link to="/contact" className="text-muted-foreground hover:text-brand-500 transition">Contact Us</Link>
               <a href="#" className="text-muted-foreground hover:text-brand-500 transition">Volunteer</a>
-              <a href="#" className="text-muted-foreground hover:text-brand-500 transition">Campaigns</a>
               <a href="#" className="text-muted-foreground hover:text-brand-500 transition">Newsletter</a>
             </nav>
           </div>

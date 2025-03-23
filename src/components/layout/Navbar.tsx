@@ -24,10 +24,11 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
-    { name: 'Board', path: '/board' },
     { name: 'Working Areas', path: '/working-areas' },
-    { name: 'Blog', path: '/blog' },
+    { name: 'Activities', path: '/activities' },
     { name: 'Gallery', path: '/gallery' },
+    { name: 'Blog', path: '/blog' },
+    { name: 'Team', path: '/board' },
     { name: 'Donate', path: '/donate' },
     { name: 'Contact', path: '/contact' },
   ];
@@ -42,7 +43,6 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <NavLink to="/" className="flex items-center">
             <div className="text-brand-600 text-xl font-bold tracking-tight">Karunalaya Nepal</div>
-            <span className="text-sm ml-2 text-foreground/70">(Compassionate Nepal)</span>
           </NavLink>
 
           {/* Desktop Navigation */}
