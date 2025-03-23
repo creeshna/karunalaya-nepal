@@ -28,7 +28,7 @@ const WorkingAreasSection = () => {
       iconColor: 'text-blue-600'
     },
     {
-      title: 'Women's Empowerment',
+      title: "Women's Empowerment",
       icon: Users,
       color: 'bg-purple-100',
       iconColor: 'text-purple-600'

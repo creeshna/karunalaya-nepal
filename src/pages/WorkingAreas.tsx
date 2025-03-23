@@ -30,8 +30,8 @@ const WorkingAreas = () => {
       iconColor: 'text-blue-600'
     },
     {
-      title: 'Women's Empowerment',
-      description: 'Supporting women through education, economic opportunities, and advocacy to challenge gender inequalities and promote women's leadership.',
+      title: "Women's Empowerment",
+      description: 'Supporting women through education, economic opportunities, and advocacy to challenge gender inequalities and promote women\'s leadership.',
       icon: Users,
       color: 'bg-purple-100',
       iconColor: 'text-purple-600'
