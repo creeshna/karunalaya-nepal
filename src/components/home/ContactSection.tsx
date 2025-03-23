@@ -33,8 +33,8 @@ const ContactSection = () => {
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-brand-500 mr-3" />
-                  <a href="mailto:Creeshnaneure@gmail.com" className="text-foreground/80 hover:text-brand-600 transition-colors">
-                    Creeshnaneure@gmail.com
+                  <a href="mailto:Info@karunalayanepal.org" className="text-foreground/80 hover:text-brand-600 transition-colors">
+                    Info@karunalayanepal.org
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -51,15 +51,11 @@ const ContactSection = () => {
               <table className="w-full text-foreground/80">
                 <tbody>
                   <tr>
-                    <td className="py-2">Monday - Friday:</td>
-                    <td className="py-2">9:00 AM - 5:00 PM</td>
+                    <td className="py-2">Sunday - Friday:</td>
+                    <td className="py-2">10:00 AM - 5:00 PM</td>
                   </tr>
                   <tr>
                     <td className="py-2">Saturday:</td>
-                    <td className="py-2">10:00 AM - 2:00 PM</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2">Sunday:</td>
                     <td className="py-2">Closed</td>
                   </tr>
                 </tbody>

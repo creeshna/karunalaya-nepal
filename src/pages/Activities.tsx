@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import PageTransition from '../components/layout/PageTransition';
-import { CalendarDays, Users, Clock, MapPin, ExternalLink } from 'lucide-react';
+import { CalendarDays, Users, Clock, MapPin, ExternalLink, FileText } from 'lucide-react';
 
 const Activities = () => {
   // Updated activities data
@@ -11,8 +11,8 @@ const Activities = () => {
     {
       id: 1,
       title: 'Elephant Ban Protest Program',
-      date: 'December 5, 2023',
-      location: 'Multiple International Locations',
+      date: 'December 6, 2024',
+      location: 'Nepal Tourism Board, Kathmandu',
       participants: 'Global coalition of activists',
       duration: 'Ongoing campaign',
       description: 'A global campaign to ban the use of elephants in tourism and entertainment industries, advocating for elephant welfare and ethical tourism practices. Our team participated in international protests to raise awareness about elephant exploitation.',
@@ -25,13 +25,18 @@ const Activities = () => {
     },
     {
       id: 2,
-      title: 'Elephant Polo Ban Campaign',
+      title: 'Elephant Polo Ban Agreement',
       date: 'November 15, 2023',
       location: 'Chitwan, Nepal',
-      participants: '25 activists and community members',
-      duration: 'Campaign successfully completed',
-      description: 'A successful campaign to ban elephant polo in Nepal, highlighting the cruelty and exploitation involved in using elephants for sport. The initiative focused on raising awareness about the physical and psychological harm caused to elephants and advocating for alternative, cruelty-free sporting events.',
-      image: '/lovable-uploads/bce5f043-1654-4c65-bfd6-96b05193f177.png',
+      participants: 'Karunalaya Nepal, Animal Rights Groups, Elephant Cooperative',
+      duration: 'Historic agreement achieved',
+      description: 'A landmark agreement to end elephant polo in Sauraha, Chitwan. In a historic meeting, representatives from Karunalaya Nepal, Chitwan Animal Save, and Animal Rights Club met with Elephant Polo organizers and United Elephant Cooperative members to permanently end this practice. The agreement, signed by organizer Mr. Ram Kumar Aryal, Chitwan Animal Save organizer Mr. Kalyan Shrestha, Animal Rights Club founder Mr. Surajan Shrestha, and Karunalaya team members Ishwari Prasad Neure and Sudha Timalshena, marks a significant victory for elephant welfare in Nepal.',
+      image: '/lovable-uploads/9442832c-6f6d-4223-8a6a-06f81e72050a.png',
+      meetingPhotos: [
+        '/lovable-uploads/c580fd1f-0181-43d3-8727-7319a5acf1ba.png',
+        '/lovable-uploads/db0455b0-c35d-4cf5-b6f2-7ca0e422d2cc.png'
+      ],
+      agreementPhoto: '/lovable-uploads/34696669-3b87-4382-93bd-7117ba146d08.png'
     },
   ];
 
@@ -111,8 +116,47 @@ const Activities = () => {
                           </div>
                         </div>
                       )}
+
+                      {activity.id === 2 && (
+                        <div className="mt-4">
+                          <div className="flex items-center text-brand-600 mb-2">
+                            <FileText className="h-4 w-4 mr-1.5" />
+                            <span className="font-medium">Agreement Details</span>
+                          </div>
+                          <p className="text-sm text-foreground/80 mb-4">
+                            Following extensive discussions, all parties signed an agreement to permanently end elephant polo activities in Chitwan. This historic agreement recognizes the welfare concerns associated with using elephants for entertainment and marks a significant step forward for animal rights in Nepal.
+                          </p>
+                        </div>
+                      )}
                     </div>
                   </div>
+
+                  {activity.id === 2 && (
+                    <div className="p-6 pt-0">
+                      <h4 className="font-medium mb-3">Meeting Documentation</h4>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        {activity.meetingPhotos.map((photo, index) => (
+                          <div key={index} className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden">
+                            <img 
+                              src={photo} 
+                              alt={`Meeting photo ${index + 1}`} 
+                              className="object-cover w-full h-full"
+                            />
+                          </div>
+                        ))}
+                        <div className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden">
+                          <img 
+                            src={activity.agreementPhoto} 
+                            alt="Agreement document" 
+                            className="object-cover w-full h-full"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                            <span className="text-white p-3 text-sm">Signed Agreement Document</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>

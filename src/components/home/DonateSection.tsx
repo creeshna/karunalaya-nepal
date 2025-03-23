@@ -49,7 +49,7 @@ const DonateSection = () => {
                 <h3 className="text-xl font-medium mb-4">Make a One-Time Donation</h3>
                 
                 <div className="grid grid-cols-3 gap-3 mb-6">
-                  {[25, 50, 100].map((amount) => (
+                  {[5, 10, 25].map((amount) => (
                     <button 
                       key={amount} 
                       className="py-2 px-4 border border-border rounded-lg hover:bg-brand-50 transition-colors"

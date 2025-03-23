@@ -10,28 +10,28 @@ const Donate = () => {
   const [donationType, setDonationType] = useState('one-time');
   const [showForm, setShowForm] = useState(false);
   
-  const predefinedAmounts = [25, 50, 100, 250, 500];
+  const predefinedAmounts = [5, 10, 25, 50, 100];
   
   const impactExamples = [
     {
+      amount: 5,
+      description: 'Provide food for a rescued animal for a week'
+    },
+    {
+      amount: 10,
+      description: 'Support educational materials on animal rights'
+    },
+    {
       amount: 25,
-      description: 'Provide clean water to a family for a month'
+      description: 'Fund community awareness programs'
     },
     {
       amount: 50,
-      description: 'Plant 25 trees in deforested areas'
+      description: 'Support wildlife rehabilitation efforts'
     },
     {
       amount: 100,
-      description: 'Support wildlife rehabilitation for a week'
-    },
-    {
-      amount: 250,
-      description: 'Fund an educational workshop for a community'
-    },
-    {
-      amount: 500,
-      description: 'Protect an acre of critical habitat'
+      description: 'Fund advocacy campaigns to change policies'
     },
   ];
 

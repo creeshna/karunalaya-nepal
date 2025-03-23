@@ -26,6 +26,11 @@ const TeamSection = () => {
       bio: 'Passionate advocate for social change and the empowerment of individuals with disabilities.'
     },
     {
+      name: 'Anushka Shah',
+      role: 'Co-Founder',
+      bio: 'Dedicated advocate for community health, animal welfare and social justice with expertise in dental care.'
+    },
+    {
       name: 'Sabina Kandel',
       role: 'Member',
       bio: 'Registered Lab Technician with 10 years of healthcare experience and 8 years of active community service.'

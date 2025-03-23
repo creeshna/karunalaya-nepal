@@ -40,6 +40,14 @@ const Team = () => {
       email: 'sajita@karunalayanepal.org'
     },
     {
+      name: 'Anushka Shah',
+      role: 'Co-Founder',
+      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80',
+      bio: 'Anushka Shah is a dedicated advocate for community health, animal welfare and social justice blending her expertise in dental care with a passion for grassroots activism. Holding a diploma in Dental Science and currently pursuing a Bachelor\'s degree in Social Work, she integrates her clinical knowledge with community service, focusing on oral health awareness programs for underserved communities. A strong proponent of animal welfare, Anushka leads a rescue and rehabilitation program for stray animals that also promotes cruelty-free policies. At Karunalaya Nepal, Anushka plays a vital role in driving inclusive empowerment, ensuring that health, social justice, and animal rights remain at the core of the organization\'s mission.',
+      linkedin: '#',
+      email: 'anushka@karunalayanepal.org'
+    },
+    {
       name: 'Sabina Kandel',
       role: 'Member',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80',

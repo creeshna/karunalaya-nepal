@@ -41,8 +41,8 @@ const Contact = () => {
                       </div>
                       <div className="flex items-center">
                         <Mail className="h-5 w-5 text-brand-500 mr-3" />
-                        <a href="mailto:Creeshnaneure@gmail.com" className="text-foreground/80 hover:text-brand-600 transition-colors">
-                          Creeshnaneure@gmail.com
+                        <a href="mailto:Info@karunalayanepal.org" className="text-foreground/80 hover:text-brand-600 transition-colors">
+                          Info@karunalayanepal.org
                         </a>
                       </div>
                       <div className="flex items-center">
@@ -60,21 +60,14 @@ const Contact = () => {
                       <div className="flex items-start">
                         <Clock className="h-5 w-5 text-brand-500 mr-3 mt-0.5" />
                         <div>
-                          <p className="text-foreground/80">Monday - Friday:</p>
-                          <p className="text-foreground/60">9:00 AM - 5:00 PM</p>
+                          <p className="text-foreground/80">Sunday - Friday:</p>
+                          <p className="text-foreground/60">10:00 AM - 5:00 PM</p>
                         </div>
                       </div>
                       <div className="flex items-start">
                         <Clock className="h-5 w-5 text-brand-500 mr-3 mt-0.5" />
                         <div>
                           <p className="text-foreground/80">Saturday:</p>
-                          <p className="text-foreground/60">10:00 AM - 2:00 PM</p>
-                        </div>
-                      </div>
-                      <div className="flex items-start">
-                        <Clock className="h-5 w-5 text-brand-500 mr-3 mt-0.5" />
-                        <div>
-                          <p className="text-foreground/80">Sunday:</p>
                           <p className="text-foreground/60">Closed</p>
                         </div>
                       </div>
