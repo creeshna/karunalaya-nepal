@@ -1,16 +1,14 @@
-
 import React from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import PageTransition from '../components/layout/PageTransition';
 import { 
+  Scale,
+  PawPrint,
   Leaf, 
-  Scale, 
-  Users, 
-  Heart, 
   Accessibility, 
-  Globe,
-  PawPrint
+  Users, 
+  Heart
 } from 'lucide-react';
 
 const WorkingAreas = () => {

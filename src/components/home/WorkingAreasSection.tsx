@@ -2,36 +2,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  Leaf, 
-  Shield, 
-  Users, 
-  Heart, 
-  Accessibility, 
-  Globe,
-  PawPrint,
   Scale,
+  PawPrint,
+  Leaf, 
+  Accessibility,
+  Users, 
+  Heart,
   ArrowRight 
 } from 'lucide-react';
 
 const WorkingAreasSection = () => {
   const areas = [
     {
-      title: 'LGBTQIA+ Empowerment',
-      icon: Heart,
-      color: 'bg-pink-100',
-      iconColor: 'text-pink-600'
-    },
-    {
-      title: 'Disability Rights & Inclusion',
-      icon: Accessibility,
-      color: 'bg-blue-100',
-      iconColor: 'text-blue-600'
-    },
-    {
-      title: "Women's Empowerment",
-      icon: Users,
-      color: 'bg-purple-100',
-      iconColor: 'text-purple-600'
+      title: 'Human Rights',
+      icon: Scale,
+      color: 'bg-red-100',
+      iconColor: 'text-red-600'
     },
     {
       title: 'Animal Welfare',
@@ -46,10 +32,22 @@ const WorkingAreasSection = () => {
       iconColor: 'text-green-600'
     },
     {
-      title: 'Human Rights',
-      icon: Scale,
-      color: 'bg-red-100',
-      iconColor: 'text-red-600'
+      title: 'Disability Rights & Inclusion',
+      icon: Accessibility,
+      color: 'bg-blue-100',
+      iconColor: 'text-blue-600'
+    },
+    {
+      title: "Women's Empowerment",
+      icon: Users,
+      color: 'bg-purple-100',
+      iconColor: 'text-purple-600'
+    },
+    {
+      title: 'LGBTQIA+ Empowerment',
+      icon: Heart,
+      color: 'bg-pink-100',
+      iconColor: 'text-pink-600'
     },
   ];
 
@@ -69,12 +67,12 @@ const WorkingAreasSection = () => {
               />
             </div>
             
-            <p className="text-lg mb-6">
+            <p className="text-lg mb-6 text-foreground">
               We envision a world where humans, animals and nature thrive together in harmony. Through advocacy, education, workshops and action, we work to reduce conflicts, foster compassion and promote sustainable practices for a brighter, more inclusive future.
             </p>
             
             <div className="mb-6">
-              <h3 className="text-xl font-medium mb-4">Our mission extends to:</h3>
+              <h3 className="text-xl font-medium mb-4 text-foreground">Our mission extends to:</h3>
             </div>
           </div>
         </div>
@@ -89,14 +87,14 @@ const WorkingAreasSection = () => {
                 <div className={`rounded-full w-12 h-12 flex items-center justify-center ${area.iconColor} bg-white mb-4`}>
                   <area.icon className="h-6 w-6" />
                 </div>
-                <h3 className="text-base font-medium">{area.title}</h3>
+                <h3 className="text-base font-medium text-foreground">{area.title}</h3>
               </div>
             </div>
           ))}
         </div>
 
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-lg mb-8">
+          <p className="text-lg mb-8 text-foreground">
             Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard. Join us in building a future of "One Health, One Earth" Compassion in Action for All.
           </p>
 

@@ -53,7 +53,7 @@ const TeamSection = () => {
               key={index} 
               className="bg-white rounded-2xl overflow-hidden shadow-sm hover-lift p-6"
             >
-              <h3 className="text-xl font-medium mb-2">{member.name}</h3>
+              <h3 className="text-xl font-medium mb-2 text-foreground">{member.name}</h3>
               <p className="text-brand-600 text-sm mb-4">{member.role}</p>
               <p className="text-foreground/80">{member.bio}</p>
             </div>
