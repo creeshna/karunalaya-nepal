@@ -4,6 +4,7 @@ import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import PageTransition from '../components/layout/PageTransition';
 import { CalendarDays, Users, Clock, MapPin, ExternalLink, FileText } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Activities = () => {
   // Updated activities data with corrected date
@@ -165,9 +166,9 @@ const Activities = () => {
               <p className="text-lg text-muted-foreground mb-4">
                 Want to get involved in our upcoming activities?
               </p>
-              <a href="/contact" className="btn btn-primary mx-auto">
+              <Link to="/contact" className="btn btn-primary mx-auto">
                 Contact Us to Volunteer
-              </a>
+              </Link>
             </div>
           </div>
         </main>

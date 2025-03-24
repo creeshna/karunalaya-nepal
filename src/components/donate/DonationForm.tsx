@@ -14,11 +14,16 @@ const DonationForm: React.FC<DonationFormProps> = ({ amount, donationType, onAmo
   const [currency, setCurrency] = useState<string>('USD');
   const [cause, setCause] = useState<string>('animal');
   
-  const predefinedAmounts = [5, 10, 25, 50, 100];
+  const predefinedAmountsUSD = [5, 10, 25, 50, 100];
+  const predefinedAmountsNPR = [50, 100, 250, 500, 1000];
   
   const handleCurrencyConversion = (newAmount: number, newCurrency: string) => {
     setCurrency(newCurrency);
     // If needed, adjust the amount based on currency here
+  };
+
+  const getPredefinedAmounts = () => {
+    return currency === 'USD' ? predefinedAmountsUSD : predefinedAmountsNPR;
   };
 
   return (
@@ -33,7 +38,7 @@ const DonationForm: React.FC<DonationFormProps> = ({ amount, donationType, onAmo
       <div className="mb-6">
         <h3 className="font-medium mb-3">Select an amount</h3>
         <div className="grid grid-cols-3 gap-3 mb-4">
-          {predefinedAmounts.map((value) => (
+          {getPredefinedAmounts().map((value) => (
             <button 
               key={value} 
               className={`py-2 px-4 rounded-lg transition-colors ${

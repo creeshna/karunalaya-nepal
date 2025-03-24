@@ -16,25 +16,11 @@ import {
 const WorkingAreas = () => {
   const areas = [
     {
-      title: 'LGBTQIA+ Empowerment',
-      description: 'Supporting and advocating for the rights, dignity, and inclusion of LGBTQIA+ individuals through education, community building, and policy advocacy.',
-      icon: Heart,
-      color: 'bg-pink-100',
-      iconColor: 'text-pink-600'
-    },
-    {
-      title: 'Disability Rights & Inclusion',
-      description: 'Working to create accessible environments and inclusive communities where people with disabilities can fully participate and thrive.',
-      icon: Accessibility,
-      color: 'bg-blue-100',
-      iconColor: 'text-blue-600'
-    },
-    {
-      title: "Women's Empowerment",
-      description: 'Supporting women through education, economic opportunities, and advocacy to challenge gender inequalities and promote women\'s leadership.',
-      icon: Users,
-      color: 'bg-purple-100',
-      iconColor: 'text-purple-600'
+      title: 'Human Rights',
+      description: 'Advocating for the fundamental rights, dignity, and equal treatment of all people regardless of their background, identity, or circumstances.',
+      icon: Scale,
+      color: 'bg-red-100',
+      iconColor: 'text-red-600'
     },
     {
       title: 'Animal Welfare',
@@ -51,11 +37,25 @@ const WorkingAreas = () => {
       iconColor: 'text-green-600'
     },
     {
-      title: 'Human Rights',
-      description: 'Advocating for the fundamental rights, dignity, and equal treatment of all people regardless of their background, identity, or circumstances.',
-      icon: Scale,
-      color: 'bg-red-100',
-      iconColor: 'text-red-600'
+      title: 'Disability Rights & Inclusion',
+      description: 'Working to create accessible environments and inclusive communities where people with disabilities can fully participate and thrive.',
+      icon: Accessibility,
+      color: 'bg-blue-100',
+      iconColor: 'text-blue-600'
+    },
+    {
+      title: "Women's Empowerment",
+      description: 'Supporting women through education, economic opportunities, and advocacy to challenge gender inequalities and promote women\'s leadership.',
+      icon: Users,
+      color: 'bg-purple-100',
+      iconColor: 'text-purple-600'
+    },
+    {
+      title: 'LGBTQIA+ Empowerment',
+      description: 'Supporting and advocating for the rights, dignity, and inclusion of LGBTQIA+ individuals through education, community building, and policy advocacy.',
+      icon: Heart,
+      color: 'bg-pink-100',
+      iconColor: 'text-pink-600'
     },
   ];
 

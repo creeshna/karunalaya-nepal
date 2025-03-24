@@ -6,7 +6,7 @@ import PageTransition from '../components/layout/PageTransition';
 import { Mail, Linkedin } from 'lucide-react';
 
 const Team = () => {
-  const teamMembers = [
+  const boardMembers = [
     {
       name: 'Ishwari Prasad Neure',
       role: 'Founder',
@@ -43,10 +43,13 @@ const Team = () => {
       name: 'Anushka Shah',
       role: 'Co-Founder',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80',
-      bio: 'Anushka Shah is a dedicated advocate for community health, animal welfare and social justice blending her expertise in dental care with a passion for grassroots activism. Holding a diploma in Dental Science and currently pursuing a Bachelor\'s degree in Social Work, she integrates her clinical knowledge with community service, focusing on oral health awareness programs for underserved communities. A strong proponent of animal welfare, Anushka leads a rescue and rehabilitation program for stray animals that also promotes cruelty-free policies. At Karunalaya Nepal, Anushka plays a vital role in driving inclusive empowerment, ensuring that health, social justice, and animal rights remain at the core of the organization\'s mission.',
+      bio: 'Anushka Shah is a dedicated advocate for community health, animal welfare and social justice blending expertise in dental care with a passion for grassroots activism. Holding a diploma in Dental Science and currently pursuing a Bachelor\'s degree in Social Work, Anushka integrates clinical knowledge with community service, focusing on oral health awareness programs for underserved communities. A strong proponent of animal welfare, Anushka leads a rescue and rehabilitation program for stray animals that also promotes cruelty-free policies. At Karunalaya Nepal, Anushka plays a vital role in driving inclusive empowerment, ensuring that health, social justice, and animal rights remain at the core of the organization\'s mission.',
       linkedin: '#',
       email: 'anushka@karunalayanepal.org'
     },
+  ];
+  
+  const members = [
     {
       name: 'Sabina Kandel',
       role: 'Member',
@@ -65,54 +68,103 @@ const Team = () => {
         <main className="pt-24 pb-16">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <div className="section-subtitle">Our Leadership</div>
               <h1 className="section-title text-4xl md:text-5xl">Our Team</h1>
               <p className="section-description mx-auto">
                 Meet the dedicated individuals who guide our organization with their expertise, passion, and vision for a better world.
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {teamMembers.map((member, index) => (
-                <div 
-                  key={index} 
-                  className="glass overflow-hidden hover-lift"
-                >
-                  <div className="flex flex-col md:flex-row">
-                    <div className="md:w-1/3">
-                      <img 
-                        src={member.image} 
-                        alt={member.name} 
-                        className="object-cover w-full h-full"
-                      />
-                    </div>
-                    <div className="p-6 md:w-2/3">
-                      <h3 className="text-xl font-medium">{member.name}</h3>
-                      <p className="text-brand-600 mb-3">{member.role}</p>
-                      <p className="text-foreground/80 mb-4 text-sm">{member.bio}</p>
-                      <div className="flex space-x-3">
-                        <a 
-                          href={`mailto:${member.email}`} 
-                          className="p-2 rounded-full bg-secondary hover:bg-brand-100 transition-colors"
-                          aria-label={`Email ${member.name}`}
-                        >
-                          <Mail className="h-5 w-5 text-brand-600" />
-                        </a>
-                        <a 
-                          href={member.linkedin} 
-                          className="p-2 rounded-full bg-secondary hover:bg-brand-100 transition-colors"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          aria-label={`${member.name}'s LinkedIn profile`}
-                        >
-                          <Linkedin className="h-5 w-5 text-brand-600" />
-                        </a>
+            <div className="mb-16">
+              <h2 className="text-2xl font-semibold mb-8 text-center">Board Members</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {boardMembers.map((member, index) => (
+                  <div 
+                    key={index} 
+                    className="glass overflow-hidden hover-lift"
+                  >
+                    <div className="flex flex-col md:flex-row">
+                      <div className="md:w-1/3">
+                        <img 
+                          src={member.image} 
+                          alt={member.name} 
+                          className="object-cover w-full h-full"
+                        />
+                      </div>
+                      <div className="p-6 md:w-2/3">
+                        <h3 className="text-xl font-medium">{member.name}</h3>
+                        <p className="text-brand-600 mb-3">{member.role}</p>
+                        <p className="text-foreground/80 mb-4 text-sm">{member.bio}</p>
+                        <div className="flex space-x-3">
+                          <a 
+                            href={`mailto:${member.email}`} 
+                            className="p-2 rounded-full bg-secondary hover:bg-brand-100 transition-colors"
+                            aria-label={`Email ${member.name}`}
+                          >
+                            <Mail className="h-5 w-5 text-brand-600" />
+                          </a>
+                          <a 
+                            href={member.linkedin} 
+                            className="p-2 rounded-full bg-secondary hover:bg-brand-100 transition-colors"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label={`${member.name}'s LinkedIn profile`}
+                          >
+                            <Linkedin className="h-5 w-5 text-brand-600" />
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
+            
+            {members.length > 0 && (
+              <div>
+                <h2 className="text-2xl font-semibold mb-8 text-center">Members</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  {members.map((member, index) => (
+                    <div 
+                      key={index} 
+                      className="glass overflow-hidden hover-lift"
+                    >
+                      <div className="flex flex-col md:flex-row">
+                        <div className="md:w-1/3">
+                          <img 
+                            src={member.image} 
+                            alt={member.name} 
+                            className="object-cover w-full h-full"
+                          />
+                        </div>
+                        <div className="p-6 md:w-2/3">
+                          <h3 className="text-xl font-medium">{member.name}</h3>
+                          <p className="text-brand-600 mb-3">{member.role}</p>
+                          <p className="text-foreground/80 mb-4 text-sm">{member.bio}</p>
+                          <div className="flex space-x-3">
+                            <a 
+                              href={`mailto:${member.email}`} 
+                              className="p-2 rounded-full bg-secondary hover:bg-brand-100 transition-colors"
+                              aria-label={`Email ${member.name}`}
+                            >
+                              <Mail className="h-5 w-5 text-brand-600" />
+                            </a>
+                            <a 
+                              href={member.linkedin} 
+                              className="p-2 rounded-full bg-secondary hover:bg-brand-100 transition-colors"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label={`${member.name}'s LinkedIn profile`}
+                            >
+                              <Linkedin className="h-5 w-5 text-brand-600" />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </main>
         

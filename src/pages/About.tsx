@@ -31,26 +31,26 @@ const About = () => {
                   Karunalaya Nepal (करुणालय नेपाल) translates to "Compassionate Nepal" in English, embodying our foundational belief that compassion is the essence of positive change. The word "Karunalaya" combines "Karuna" (करुणा) meaning compassion or kindness, and "Alaya" (आलय) meaning abode or home - creating a name that represents our vision of Nepal as a home of compassion and empathy.
                 </p>
                 
-                <p className="text-foreground/80">
+                <p className="text-foreground/80 mb-8">
                   As a non-profit organization based in Bharatpur-1, Chitwan, Nepal, we are dedicated to creating a compassionate and sustainable future. Our mission is to foster harmony between humans, animals and nature by promoting ethical living, environmental conservation and social justice.
                 </p>
                 
-                <h2 className="font-bold">Our Vision</h2>
-                <p>
+                <h2 className="font-bold text-2xl mb-4">Our Vision</h2>
+                <p className="mb-8">
                   We envision a world where humans, animals and nature thrive together in harmony. Through advocacy, education, workshops and action, we work to reduce conflicts, foster compassion and promote sustainable practices for a brighter, more inclusive future.
                 </p>
                 
-                <h2 className="font-bold">Our Mission</h2>
-                <p>
+                <h2 className="font-bold text-2xl mb-4">Our Mission</h2>
+                <p className="mb-4">
                   Our mission extends to:
                 </p>
-                <ul className="list-disc pl-6">
-                  <li><strong>LGBTQIA+ Empowerment:</strong> Supporting and advocating for the rights, dignity, and inclusion of LGBTQIA+ individuals.</li>
-                  <li><strong>Disability Rights & Inclusion:</strong> Working to create accessible environments and inclusive communities.</li>
-                  <li><strong>Women's Empowerment:</strong> Supporting women through education, economic opportunities, and advocacy.</li>
+                <ul className="list-disc pl-6 space-y-2 mb-8">
+                  <li><strong>Human Rights:</strong> Advocating for the fundamental rights, dignity, and equal treatment of all people.</li>
                   <li><strong>Animal Welfare:</strong> Protecting animals from suffering and promoting their wellbeing.</li>
                   <li><strong>Environmental Conservation:</strong> Protecting natural ecosystems and promoting sustainable practices.</li>
-                  <li><strong>Human Rights:</strong> Advocating for the fundamental rights, dignity, and equal treatment of all people.</li>
+                  <li><strong>Disability Rights & Inclusion:</strong> Working to create accessible environments and inclusive communities.</li>
+                  <li><strong>Women's Empowerment:</strong> Supporting women through education, economic opportunities, and advocacy.</li>
+                  <li><strong>LGBTQIA+ Empowerment:</strong> Supporting and advocating for the rights, dignity, and inclusion of LGBTQIA+ individuals.</li>
                 </ul>
                 
                 <p className="text-lg mt-8">

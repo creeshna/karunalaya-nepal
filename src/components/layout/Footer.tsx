@@ -52,7 +52,7 @@ const Footer = () => {
               <Link to="/team" className="text-muted-foreground hover:text-brand-500 transition">Our Team</Link>
               <Link to="/donate" className="text-muted-foreground hover:text-brand-500 transition">Donate</Link>
               <Link to="/contact" className="text-muted-foreground hover:text-brand-500 transition">Contact Us</Link>
-              <a href="#" className="text-muted-foreground hover:text-brand-500 transition">Volunteer</a>
+              <Link to="/contact" className="text-muted-foreground hover:text-brand-500 transition">Volunteer</Link>
               <a href="#" className="text-muted-foreground hover:text-brand-500 transition">Newsletter</a>
             </nav>
           </div>
