@@ -5,13 +5,19 @@ import { useToast } from "../../hooks/use-toast";
 interface CurrencyConverterProps {
   amount: number | '';
   onConvert: (amount: number, currency: string) => void;
+  currency?: string;
 }
 
-const CurrencyConverter: React.FC<CurrencyConverterProps> = ({ amount, onConvert }) => {
-  const [currency, setCurrency] = useState<string>('USD');
+const CurrencyConverter: React.FC<CurrencyConverterProps> = ({ amount, onConvert, currency = 'USD' }) => {
+  const [localCurrency, setLocalCurrency] = useState<string>(currency);
   const [exchangeRate, setExchangeRate] = useState<number>(130); // Default approximate rate
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const { toast } = useToast();
+
+  // Sync with parent component's currency if provided
+  useEffect(() => {
+    setLocalCurrency(currency);
+  }, [currency]);
 
   useEffect(() => {
     // This would normally fetch the latest exchange rate
@@ -37,7 +43,7 @@ const CurrencyConverter: React.FC<CurrencyConverterProps> = ({ amount, onConvert
   }, [toast]);
 
   const handleCurrencyChange = (newCurrency: string) => {
-    setCurrency(newCurrency);
+    setLocalCurrency(newCurrency);
     if (amount !== '') {
       onConvert(Number(amount), newCurrency);
     }
@@ -47,7 +53,7 @@ const CurrencyConverter: React.FC<CurrencyConverterProps> = ({ amount, onConvert
   const getConvertedAmount = (): string => {
     if (amount === '') return '';
     
-    if (currency === 'USD') {
+    if (localCurrency === 'USD') {
       return `NPR ${(Number(amount) * exchangeRate).toFixed(2)}`;
     } else {
       return `USD ${(Number(amount) / exchangeRate).toFixed(2)}`;
@@ -68,7 +74,7 @@ const CurrencyConverter: React.FC<CurrencyConverterProps> = ({ amount, onConvert
       <div className="flex gap-3 mb-2">
         <button
           className={`flex-1 py-2 rounded-lg transition-colors ${
-            currency === 'USD' 
+            localCurrency === 'USD' 
               ? 'bg-brand-500 text-white' 
               : 'border border-border hover:bg-secondary'
           }`}
@@ -78,7 +84,7 @@ const CurrencyConverter: React.FC<CurrencyConverterProps> = ({ amount, onConvert
         </button>
         <button
           className={`flex-1 py-2 rounded-lg transition-colors ${
-            currency === 'NPR' 
+            localCurrency === 'NPR' 
               ? 'bg-brand-500 text-white' 
               : 'border border-border hover:bg-secondary'
           }`}

@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import PageTransition from '../components/layout/PageTransition';
-import { MapPin, Phone, Mail, Send, Clock, Globe, Instagram, Linkedin } from 'lucide-react';
+import { MapPin, Phone, Mail, Send, Clock, Globe, Instagram, Linkedin, UserPlus } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -90,65 +90,104 @@ const Contact = () => {
                 </div>
               </div>
               
-              <div className="lg:col-span-2 glass p-8 rounded-2xl">
-                <h2 className="text-2xl font-medium mb-6">Send us a message</h2>
-                <form className="space-y-4">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="lg:col-span-2">
+                <div className="glass p-8 rounded-2xl mb-8">
+                  <h2 className="text-2xl font-medium mb-6">Send us a message</h2>
+                  <form className="space-y-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      <div>
+                        <label htmlFor="name" className="block text-sm text-foreground/70 mb-1">
+                          Your Name
+                        </label>
+                        <input 
+                          type="text" 
+                          id="name" 
+                          className="w-full py-2 px-3 border border-border rounded-lg bg-white/80"
+                          placeholder="John Doe"
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="email" className="block text-sm text-foreground/70 mb-1">
+                          Email Address
+                        </label>
+                        <input 
+                          type="email" 
+                          id="email" 
+                          className="w-full py-2 px-3 border border-border rounded-lg bg-white/80"
+                          placeholder="john@example.com"
+                        />
+                      </div>
+                    </div>
+                    
                     <div>
-                      <label htmlFor="name" className="block text-sm text-foreground/70 mb-1">
-                        Your Name
+                      <label htmlFor="subject" className="block text-sm text-foreground/70 mb-1">
+                        Subject
                       </label>
                       <input 
                         type="text" 
-                        id="name" 
+                        id="subject" 
                         className="w-full py-2 px-3 border border-border rounded-lg bg-white/80"
-                        placeholder="John Doe"
+                        placeholder="How can we help?"
                       />
                     </div>
+                    
                     <div>
-                      <label htmlFor="email" className="block text-sm text-foreground/70 mb-1">
-                        Email Address
+                      <label htmlFor="message" className="block text-sm text-foreground/70 mb-1">
+                        Message
                       </label>
-                      <input 
-                        type="email" 
-                        id="email" 
+                      <textarea 
+                        id="message" 
+                        rows={6} 
                         className="w-full py-2 px-3 border border-border rounded-lg bg-white/80"
-                        placeholder="john@example.com"
-                      />
+                        placeholder="Your message here..."
+                      ></textarea>
                     </div>
+                    
+                    <div className="pt-2">
+                      <button type="submit" className="btn btn-primary flex items-center">
+                        <Send className="h-4 w-4 mr-2" />
+                        <span>Send Message</span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+
+                <div className="glass p-8 rounded-2xl">
+                  <div className="flex items-center mb-4">
+                    <UserPlus className="h-6 w-6 text-brand-500 mr-3" />
+                    <h2 className="text-2xl font-medium">Volunteer With Us</h2>
                   </div>
-                  
-                  <div>
-                    <label htmlFor="subject" className="block text-sm text-foreground/70 mb-1">
-                      Subject
-                    </label>
-                    <input 
-                      type="text" 
-                      id="subject" 
-                      className="w-full py-2 px-3 border border-border rounded-lg bg-white/80"
-                      placeholder="How can we help?"
-                    />
+                  <p className="text-foreground/80 mb-6">
+                    Want to get involved in our upcoming activities? We're always looking for passionate volunteers 
+                    to help with our campaigns, events, and ongoing initiatives. Whether you have a few hours to 
+                    spare or want to commit to regular volunteering, we'd love to have you join our team.
+                  </p>
+                  <div className="bg-secondary p-6 rounded-xl">
+                    <h3 className="font-medium mb-3">Current Volunteer Opportunities:</h3>
+                    <ul className="space-y-2 mb-4">
+                      <li className="flex items-start">
+                        <span className="text-brand-500 mr-2">•</span>
+                        <span>Animal welfare and rescue assistance</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-brand-500 mr-2">•</span>
+                        <span>Environmental conservation projects</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-brand-500 mr-2">•</span>
+                        <span>Community outreach and education</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-brand-500 mr-2">•</span>
+                        <span>Event organization and coordination</span>
+                      </li>
+                    </ul>
+                    <p className="text-sm text-foreground/70 mb-4">
+                      Please fill out our contact form above, mentioning your areas of interest and availability. 
+                      Our volunteer coordinator will get back to you with more information.
+                    </p>
                   </div>
-                  
-                  <div>
-                    <label htmlFor="message" className="block text-sm text-foreground/70 mb-1">
-                      Message
-                    </label>
-                    <textarea 
-                      id="message" 
-                      rows={6} 
-                      className="w-full py-2 px-3 border border-border rounded-lg bg-white/80"
-                      placeholder="Your message here..."
-                    ></textarea>
-                  </div>
-                  
-                  <div className="pt-2">
-                    <button type="submit" className="btn btn-primary flex items-center">
-                      <Send className="h-4 w-4 mr-2" />
-                      <span>Send Message</span>
-                    </button>
-                  </div>
-                </form>
+                </div>
               </div>
             </div>
             

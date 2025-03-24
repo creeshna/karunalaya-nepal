@@ -6,22 +6,22 @@ import { ArrowRight } from 'lucide-react';
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: 'Ishwari Prasad Neure',
+      name: 'Mr. Ishwari Prasad Neure',
       role: 'Founder',
       bio: 'Dedicated human rights activist, environmental advocate, and social change leader with a background in Social Work.'
     },
     {
-      name: 'Sudha Timalshena',
+      name: 'Ms. Sudha Timalshena',
       role: 'Co-Founder',
       bio: 'Dedicated environmentalist and animal rights activist committed to sustainability and social justice.'
     },
     {
-      name: 'Aasna Sapkota',
+      name: 'Ms. Aasna Sapkota',
       role: 'Co-Founder',
       bio: 'Passionate advocate for inclusive education and the empowerment of children with disabilities.'
     },
     {
-      name: 'Sajita Poudel',
+      name: 'Ms. Sajita Poudel',
       role: 'Co-Founder',
       bio: 'Passionate advocate for social change and the empowerment of individuals with disabilities.'
     },
@@ -31,7 +31,7 @@ const TeamSection = () => {
       bio: 'Dedicated advocate for community health, animal welfare and social justice with expertise in dental care.'
     },
     {
-      name: 'Sabina Kandel',
+      name: 'Ms. Sabina Kandel',
       role: 'Member',
       bio: 'Registered Lab Technician with 10 years of healthcare experience and 8 years of active community service.'
     },
@@ -41,7 +41,6 @@ const TeamSection = () => {
     <section className="bg-secondary py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <div className="section-subtitle">Our Leadership</div>
           <h2 className="section-title">Our Team</h2>
           <p className="section-description mx-auto">
             Meet the dedicated individuals who guide our organization with their expertise, passion, and vision for a better world.

@@ -27,24 +27,24 @@ const About = () => {
               </div>
               
               <div className="prose prose-lg mx-auto">
-                <p className="lead text-xl text-foreground/80">
+                <p className="text-lg text-foreground/80 mb-6">
                   Karunalaya Nepal (करुणालय नेपाल) translates to "Compassionate Nepal" in English, embodying our foundational belief that compassion is the essence of positive change. The word "Karunalaya" combines "Karuna" (करुणा) meaning compassion or kindness, and "Alaya" (आलय) meaning abode or home - creating a name that represents our vision of Nepal as a home of compassion and empathy.
                 </p>
                 
-                <p className="text-foreground/80 mb-8">
+                <p className="text-lg text-foreground/80 mb-8">
                   As a non-profit organization based in Bharatpur-1, Chitwan, Nepal, we are dedicated to creating a compassionate and sustainable future. Our mission is to foster harmony between humans, animals and nature by promoting ethical living, environmental conservation and social justice.
                 </p>
                 
-                <h2 className="font-bold text-2xl mb-4">Our Vision</h2>
-                <p className="mb-8">
+                <h2 className="font-bold text-2xl mb-4 mt-8">Our Vision</h2>
+                <p className="text-lg mb-8">
                   We envision a world where humans, animals and nature thrive together in harmony. Through advocacy, education, workshops and action, we work to reduce conflicts, foster compassion and promote sustainable practices for a brighter, more inclusive future.
                 </p>
                 
-                <h2 className="font-bold text-2xl mb-4">Our Mission</h2>
-                <p className="mb-4">
+                <h2 className="font-bold text-2xl mb-4 mt-8">Our Mission</h2>
+                <p className="text-lg mb-4">
                   Our mission extends to:
                 </p>
-                <ul className="list-disc pl-6 space-y-2 mb-8">
+                <ul className="list-disc pl-6 space-y-3 mb-8 text-lg">
                   <li><strong>Human Rights:</strong> Advocating for the fundamental rights, dignity, and equal treatment of all people.</li>
                   <li><strong>Animal Welfare:</strong> Protecting animals from suffering and promoting their wellbeing.</li>
                   <li><strong>Environmental Conservation:</strong> Protecting natural ecosystems and promoting sustainable practices.</li>

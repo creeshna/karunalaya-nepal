@@ -4,26 +4,10 @@ import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import PageTransition from '../components/layout/PageTransition';
 import { CalendarDays, Users, Clock, MapPin, ExternalLink, FileText } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const Activities = () => {
-  // Updated activities data with corrected date
+  // Updated activities data with ordered by date (descending)
   const activities = [
-    {
-      id: 1,
-      title: 'Elephant Ban Protest Program',
-      date: 'December 6, 2024',
-      location: 'Nepal Tourism Board, Kathmandu',
-      participants: 'Global coalition of activists',
-      duration: 'Ongoing campaign',
-      description: 'A global campaign to ban the use of elephants in tourism and entertainment industries, advocating for elephant welfare and ethical tourism practices. Our team participated in international protests to raise awareness about elephant exploitation.',
-      image: '/lovable-uploads/bce5f043-1654-4c65-bfd6-96b05193f177.png',
-      links: [
-        { url: 'https://www.hina.hr/galerija/11800295', label: 'HINA Coverage' },
-        { url: 'https://www.lusa.pt/foto?from=%2ffotos%3fimageid%3d44033406&imageid=44033422', label: 'LUSA Photos' },
-        { url: 'https://news.nate.com/view/20241206n33052', label: 'News Coverage' }
-      ]
-    },
     {
       id: 2,
       title: 'Elephant Polo Ban Agreement',
@@ -38,6 +22,21 @@ const Activities = () => {
         '/lovable-uploads/db0455b0-c35d-4cf5-b6f2-7ca0e422d2cc.png'
       ],
       agreementPhoto: '/lovable-uploads/34696669-3b87-4382-93bd-7117ba146d08.png'
+    },
+    {
+      id: 1,
+      title: 'Elephant Ban Protest Program',
+      date: 'December 6, 2024',
+      location: 'Nepal Tourism Board, Kathmandu',
+      participants: 'Global coalition of activists',
+      duration: 'Ongoing campaign',
+      description: 'A global campaign to ban the use of elephants in tourism and entertainment industries, advocating for elephant welfare and ethical tourism practices. Our team participated in international protests to raise awareness about elephant exploitation.',
+      image: '/lovable-uploads/bce5f043-1654-4c65-bfd6-96b05193f177.png',
+      links: [
+        { url: 'https://www.hina.hr/galerija/11800295', label: 'HINA Coverage' },
+        { url: 'https://www.lusa.pt/foto?from=%2ffotos%3fimageid%3d44033406&imageid=44033422', label: 'LUSA Photos' },
+        { url: 'https://news.nate.com/view/20241206n33052', label: 'News Coverage' }
+      ]
     },
   ];
 
@@ -160,15 +159,6 @@ const Activities = () => {
                   )}
                 </div>
               ))}
-            </div>
-            
-            <div className="text-center">
-              <p className="text-lg text-muted-foreground mb-4">
-                Want to get involved in our upcoming activities?
-              </p>
-              <Link to="/contact" className="btn btn-primary mx-auto">
-                Contact Us to Volunteer
-              </Link>
             </div>
           </div>
         </main>

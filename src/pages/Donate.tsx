@@ -11,9 +11,18 @@ import DonationInfo from '../components/donate/DonationInfo';
 const Donate = () => {
   const [amount, setAmount] = useState<number | ''>('');
   const [donationType, setDonationType] = useState('one-time');
-  const [showForm, setShowForm] = useState(false);
   const [currency, setCurrency] = useState('USD');
-  const [cause, setCause] = useState('general');
+  const [cause, setCause] = useState('animal');
+
+  // Handle currency conversion and update from child components
+  const handleCurrencyChange = (newCurrency: string) => {
+    setCurrency(newCurrency);
+  };
+
+  // Handle cause selection from child components
+  const handleCauseChange = (newCause: string) => {
+    setCause(newCause);
+  };
 
   return (
     <PageTransition>
@@ -71,6 +80,9 @@ const Donate = () => {
                     amount={amount} 
                     donationType={donationType}
                     onAmountChange={setAmount}
+                    onCurrencyChange={handleCurrencyChange}
+                    onCauseChange={handleCauseChange}
+                    currency={currency}
                   />
                 </div>
               </div>

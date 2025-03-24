@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { CreditCard, DollarSign } from 'lucide-react';
 import CurrencyConverter from './CurrencyConverter';
 import DonationCauses from './DonationCauses';
@@ -8,22 +8,50 @@ interface DonationFormProps {
   amount: number | '';
   donationType: string;
   onAmountChange: (amount: number | '') => void;
+  onCurrencyChange?: (currency: string) => void;
+  onCauseChange?: (cause: string) => void;
+  currency?: string;
 }
 
-const DonationForm: React.FC<DonationFormProps> = ({ amount, donationType, onAmountChange }) => {
-  const [currency, setCurrency] = useState<string>('USD');
+const DonationForm: React.FC<DonationFormProps> = ({ 
+  amount, 
+  donationType, 
+  onAmountChange,
+  onCurrencyChange,
+  onCauseChange,
+  currency = 'USD'
+}) => {
+  const [localCurrency, setLocalCurrency] = useState<string>(currency);
   const [cause, setCause] = useState<string>('animal');
   
   const predefinedAmountsUSD = [5, 10, 25, 50, 100];
   const predefinedAmountsNPR = [50, 100, 250, 500, 1000];
   
+  // Update parent component when currency changes locally
+  useEffect(() => {
+    if (onCurrencyChange) {
+      onCurrencyChange(localCurrency);
+    }
+  }, [localCurrency, onCurrencyChange]);
+  
+  // Update parent component when cause changes
+  useEffect(() => {
+    if (onCauseChange) {
+      onCauseChange(cause);
+    }
+  }, [cause, onCauseChange]);
+  
   const handleCurrencyConversion = (newAmount: number, newCurrency: string) => {
-    setCurrency(newCurrency);
+    setLocalCurrency(newCurrency);
     // If needed, adjust the amount based on currency here
   };
 
+  const handleCauseChange = (newCause: string) => {
+    setCause(newCause);
+  };
+
   const getPredefinedAmounts = () => {
-    return currency === 'USD' ? predefinedAmountsUSD : predefinedAmountsNPR;
+    return localCurrency === 'USD' ? predefinedAmountsUSD : predefinedAmountsNPR;
   };
 
   return (
@@ -33,6 +61,7 @@ const DonationForm: React.FC<DonationFormProps> = ({ amount, donationType, onAmo
       <CurrencyConverter 
         amount={amount} 
         onConvert={handleCurrencyConversion} 
+        currency={localCurrency}
       />
       
       <div className="mb-6">
@@ -48,7 +77,7 @@ const DonationForm: React.FC<DonationFormProps> = ({ amount, donationType, onAmo
               }`}
               onClick={() => onAmountChange(value)}
             >
-              {currency === 'USD' ? '$' : 'रू'}{value}
+              {localCurrency === 'USD' ? '$' : 'रू'}{value}
             </button>
           ))}
         </div>
@@ -59,7 +88,7 @@ const DonationForm: React.FC<DonationFormProps> = ({ amount, donationType, onAmo
           </label>
           <div className="relative">
             <span className="absolute left-3 top-1/2 -translate-y-1/2 text-foreground/60">
-              {currency === 'USD' ? '$' : 'रू'}
+              {localCurrency === 'USD' ? '$' : 'रू'}
             </span>
             <input 
               type="number" 
@@ -79,7 +108,7 @@ const DonationForm: React.FC<DonationFormProps> = ({ amount, donationType, onAmo
       
       <DonationCauses
         selectedCause={cause}
-        onSelectCause={setCause}
+        onSelectCause={handleCauseChange}
       />
       
       <button 
