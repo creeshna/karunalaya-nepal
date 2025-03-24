@@ -28,7 +28,11 @@ const About = () => {
               
               <div className="prose prose-lg mx-auto">
                 <p className="lead text-xl text-foreground/80">
-                  Karunalaya Nepal is a non-profit organization based in Bharatpur-1, Chitwan, Nepal, dedicated to creating a compassionate and sustainable future. Our mission is to foster harmony between humans, animals and nature by promoting ethical living, environmental conservation and social justice.
+                  Karunalaya Nepal (करुणालय नेपाल) translates to "Compassionate Nepal" in English, embodying our foundational belief that compassion is the essence of positive change. The word "Karunalaya" combines "Karuna" (करुणा) meaning compassion or kindness, and "Alaya" (आलय) meaning abode or home - creating a name that represents our vision of Nepal as a home of compassion and empathy.
+                </p>
+                
+                <p className="text-foreground/80">
+                  As a non-profit organization based in Bharatpur-1, Chitwan, Nepal, we are dedicated to creating a compassionate and sustainable future. Our mission is to foster harmony between humans, animals and nature by promoting ethical living, environmental conservation and social justice.
                 </p>
                 
                 <h2 className="font-bold">Our Vision</h2>

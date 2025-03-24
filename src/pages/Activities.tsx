@@ -6,7 +6,7 @@ import PageTransition from '../components/layout/PageTransition';
 import { CalendarDays, Users, Clock, MapPin, ExternalLink, FileText } from 'lucide-react';
 
 const Activities = () => {
-  // Updated activities data
+  // Updated activities data with corrected date
   const activities = [
     {
       id: 1,
@@ -26,7 +26,7 @@ const Activities = () => {
     {
       id: 2,
       title: 'Elephant Polo Ban Agreement',
-      date: 'November 15, 2023',
+      date: 'December 16, 2024',
       location: 'Chitwan, Nepal',
       participants: 'Karunalaya Nepal, Animal Rights Groups, Elephant Cooperative',
       duration: 'Historic agreement achieved',
@@ -42,7 +42,7 @@ const Activities = () => {
 
   return (
     <PageTransition>
-      <div className="min-h-screen">
+      <div className="min-h-screen bg-background">
         <Navbar />
         
         <main className="pt-24 pb-16">
