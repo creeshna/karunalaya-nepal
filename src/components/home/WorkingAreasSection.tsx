@@ -87,7 +87,7 @@ const WorkingAreasSection = () => {
 
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-lg mb-8 text-foreground leading-relaxed">
-            Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard. Join us in building a future of "One Health, One Earth" Compassion in Action for All.
+            Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard. Join us in building a future of "One Right, One Earth" Compassion in Action for All.
           </p>
 
           <Link to="/working-areas" className="inline-flex items-center group">

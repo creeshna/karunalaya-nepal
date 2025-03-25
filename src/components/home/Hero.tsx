@@ -18,7 +18,7 @@ const Hero = () => {
             Together for lives, rights and nature
           </span>
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight mb-10 animate-fade-in-up">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight mb-10 animate-fade-in-up leading-relaxed">
             Protecting Our Planet and All Its Inhabitants
           </h1>
           
@@ -34,6 +34,15 @@ const Hero = () => {
               <span>Learn More</span>
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
+          </div>
+          
+          {/* Logo display */}
+          <div className="flex justify-center my-12">
+            <img 
+              src="/lovable-uploads/680d38ad-43c8-4b85-ad44-47423e2d6d41.png" 
+              alt="One Right, One Earth" 
+              className="w-80 h-auto"
+            />
           </div>
           
           {/* Statistics */}

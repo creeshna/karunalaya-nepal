@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
@@ -106,7 +107,7 @@ const WorkingAreas = () => {
                 Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard.
               </p>
               <p className="text-xl font-medium">
-                Join us in building a future of "One Health, One Earth" Compassion in Action for All.
+                Join us in building a future of "One Right, One Earth" Compassion in Action for All.
               </p>
             </div>
           </div>

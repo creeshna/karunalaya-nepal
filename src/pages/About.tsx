@@ -21,13 +21,13 @@ const About = () => {
                 <img 
                   src="/lovable-uploads/5cbf3ace-8ae0-4090-9b40-45846d73feb2.png" 
                   alt="Karunalaya Nepal Logo" 
-                  className="h-64 w-auto"
+                  className="h-80 w-auto"
                 />
               </div>
               
               <div className="prose prose-lg mx-auto">
                 <p className="text-lg text-foreground mb-6 leading-relaxed">
-                  Karunalaya Nepal (करुणालय नेपाल) translates to in English, embodying our foundational belief that compassion is the essence of positive change. The word "Karunalaya" combines "Karuna" (करुणा) meaning compassion or kindness, and "Alaya" (आलय) meaning abode or home - creating a name that represents our vision of Nepal as a home of compassion and empathy.
+                  Karunalaya Nepal (करुणालय नेपाल), Compassionate Nepal, translates to in English, embodying our foundational belief that compassion is the essence of positive change. The word "Karunalaya" combines "Karuna" (करुणा) meaning compassion or kindness, and "Alaya" (आलय) meaning abode or home - creating a name that represents our vision of Nepal as a home of compassion and empathy.
                 </p>
                 
                 <p className="text-lg text-foreground mb-8 leading-relaxed">
@@ -53,7 +53,7 @@ const About = () => {
                 </ul>
                 
                 <p className="text-lg mt-8 text-foreground leading-relaxed">
-                  Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard. Join us in building a future of "One Health, One Earth" Compassion in Action for All.
+                  Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard. Join us in building a future of "One Right, One Earth" Compassion in Action for All.
                 </p>
               </div>
             </div>
