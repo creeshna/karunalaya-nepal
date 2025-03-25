@@ -35,6 +35,11 @@ const TeamSection = () => {
       role: 'Member',
       bio: 'Registered Lab Technician with 10 years of healthcare experience and 8 years of active community service.'
     },
+    {
+      name: 'Mr. Suvarna Ghimire',
+      role: 'Member',
+      bio: 'Environmental activist, researcher, and youth leader dedicated to sustainability and climate advocacy.'
+    },
   ];
 
   return (

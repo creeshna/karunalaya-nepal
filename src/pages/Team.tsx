@@ -52,6 +52,13 @@ const Team = () => {
       linkedin: 'https://linkedin.com/in/sabina-kandel-419595323',
       email: 'sabina@karunalayanepal.org'
     },
+    {
+      name: 'Mr. Suvarna Ghimire',
+      role: 'Member',
+      bio: 'Suvarna Ghimire is a passionate environmental activist, researcher, and youth leader dedicated to sustainability, climate advocacy, and community empowerment. Holding a Bachelor\'s degree in Environmental Science, Suvarna has worked extensively on waste management, pollution control, and environmental policy development. As a River Campaigner for a WWF Nepal-funded program, he actively advocates for clean rivers and water conservation. His experience includes leading waste management training programs, conducting environmental impact assessments, and engaging in research on solid waste management and disaster risk reduction. Suvarna has been actively involved in various organizations, including Better Chitwan, Creasion Nepal, and the Leo Club of Chitwan Mount Everest, where he has coordinated youth empowerment programs, advocacy campaigns, and policy discussions on climate resilience. He was also part of the Save Narayani movement, which successfully won a Supreme Court case for better waste management in Bharatpur. Committed to scientific research and policy reform, Suvarna continues to bridge environmental science and community action, striving for a cleaner and more sustainable future.',
+      linkedin: '#',
+      email: 'suvarna@karunalayanepal.org'
+    },
   ];
 
   return (

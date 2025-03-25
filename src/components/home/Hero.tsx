@@ -36,12 +36,12 @@ const Hero = () => {
             </Link>
           </div>
           
-          {/* Logo display */}
+          {/* Logo display - smaller size */}
           <div className="flex justify-center my-12">
             <img 
               src="/lovable-uploads/680d38ad-43c8-4b85-ad44-47423e2d6d41.png" 
               alt="One Right, One Earth" 
-              className="w-80 h-auto"
+              className="w-60 h-auto" /* Reduced from w-80 to w-60 */
             />
           </div>
           
