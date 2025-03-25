@@ -27,7 +27,6 @@ const Navbar = () => {
     { name: 'Working Areas', path: '/working-areas' },
     { name: 'Activities', path: '/activities' },
     { name: 'Gallery', path: '/gallery' },
-    { name: 'Blog', path: '/blog' },
     { name: 'Team', path: '/team' },
     { name: 'Contact', path: '/contact' },
   ];
@@ -58,7 +57,7 @@ const Navbar = () => {
               </NavLink>
             ))}
             <NavLink to="/donate" className="ml-2">
-              <button className="btn btn-primary ml-2 flex items-center">
+              <button className="btn btn-primary flex items-center">
                 <span>Donate Now</span>
                 <ChevronRight className="ml-1 h-4 w-4" />
               </button>

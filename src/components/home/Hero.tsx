@@ -22,7 +22,7 @@ const Hero = () => {
             Protecting Our Planet and All Its Inhabitants
           </h1>
           
-          <p className="text-xl text-foreground/70 mb-8 max-w-2xl mx-auto animate-fade-in-up animate-delay-100">
+          <p className="text-xl text-foreground mb-8 max-w-2xl mx-auto animate-fade-in-up animate-delay-100">
             Join us in our mission to create a sustainable future where wildlife thrives, human rights are respected, and our planet is protected.
           </p>
           
@@ -42,10 +42,10 @@ const Hero = () => {
               <h3 className="text-4xl font-bold text-brand-600 mb-2">1+</h3>
               <p className="text-foreground/70">Year of Impact</p>
             </div>
-            <div className="glass p-6 animate-fade-in-up animate-delay-400">
+            <Link to="/activities" className="glass p-6 animate-fade-in-up animate-delay-400 hover:bg-brand-50/50 transition-colors">
               <h3 className="text-4xl font-bold text-brand-600 mb-2">10+</h3>
               <p className="text-foreground/70">Projects / Activities</p>
-            </div>
+            </Link>
             <div className="glass p-6 animate-fade-in-up animate-delay-500">
               <h3 className="text-4xl font-bold text-brand-600 mb-2">2k+</h3>
               <p className="text-foreground/70">Lives Improved</p>

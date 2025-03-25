@@ -15,7 +15,6 @@ const About = () => {
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-12">
                 <h1 className="section-title text-4xl md:text-5xl">Karunalaya Nepal</h1>
-                <p className="text-xl text-foreground/80 mt-4">(Compassionate Nepal): Fostering Compassion and Sustainability</p>
               </div>
               
               <div className="flex justify-center mb-12">
@@ -27,24 +26,24 @@ const About = () => {
               </div>
               
               <div className="prose prose-lg mx-auto">
-                <p className="text-lg text-foreground/80 mb-6">
+                <p className="text-lg text-foreground mb-6">
                   Karunalaya Nepal (करुणालय नेपाल) translates to "Compassionate Nepal" in English, embodying our foundational belief that compassion is the essence of positive change. The word "Karunalaya" combines "Karuna" (करुणा) meaning compassion or kindness, and "Alaya" (आलय) meaning abode or home - creating a name that represents our vision of Nepal as a home of compassion and empathy.
                 </p>
                 
-                <p className="text-lg text-foreground/80 mb-8">
+                <p className="text-lg text-foreground mb-8">
                   As a non-profit organization based in Bharatpur-1, Chitwan, Nepal, we are dedicated to creating a compassionate and sustainable future. Our mission is to foster harmony between humans, animals and nature by promoting ethical living, environmental conservation and social justice.
                 </p>
                 
-                <h2 className="font-bold text-2xl mb-4 mt-8">Our Vision</h2>
-                <p className="text-lg mb-8">
+                <h2 className="font-bold text-2xl mb-4 mt-8 text-foreground">Our Vision</h2>
+                <p className="text-lg mb-8 text-foreground">
                   We envision a world where humans, animals and nature thrive together in harmony. Through advocacy, education, workshops and action, we work to reduce conflicts, foster compassion and promote sustainable practices for a brighter, more inclusive future.
                 </p>
                 
-                <h2 className="font-bold text-2xl mb-4 mt-8">Our Mission</h2>
-                <p className="text-lg mb-4">
+                <h2 className="font-bold text-2xl mb-4 mt-8 text-foreground">Our Mission</h2>
+                <p className="text-lg mb-4 text-foreground">
                   Our mission extends to:
                 </p>
-                <ul className="list-disc pl-6 space-y-3 mb-8 text-lg">
+                <ul className="list-disc pl-6 space-y-3 mb-8 text-lg text-foreground">
                   <li><strong>Human Rights:</strong> Advocating for the fundamental rights, dignity, and equal treatment of all people.</li>
                   <li><strong>Animal Welfare:</strong> Protecting animals from suffering and promoting their wellbeing.</li>
                   <li><strong>Environmental Conservation:</strong> Protecting natural ecosystems and promoting sustainable practices.</li>
@@ -53,7 +52,7 @@ const About = () => {
                   <li><strong>LGBTQIA+ Empowerment:</strong> Supporting and advocating for the rights, dignity, and inclusion of LGBTQIA+ individuals.</li>
                 </ul>
                 
-                <p className="text-lg mt-8">
+                <p className="text-lg mt-8 text-foreground">
                   Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard. Join us in building a future of "One Health, One Earth" Compassion in Action for All.
                 </p>
               </div>

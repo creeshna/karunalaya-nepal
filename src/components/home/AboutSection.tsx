@@ -12,11 +12,10 @@ const AboutSection = () => {
           <div className="order-2 lg:order-1">
             <div className="space-y-6">
               <h2 className="section-title">Karunalaya Nepal</h2>
-              <p className="text-sm mb-4">(Compassionate Nepal)</p>
-              <p className="text-foreground/80 text-lg">
+              <p className="text-lg mb-6 text-foreground">
                 Karunalaya Nepal is a non-profit organization based in Bharatpur-1, Chitwan, Nepal, dedicated to creating a compassionate and sustainable future through harmony between humans, animals and nature.
               </p>
-              <p className="text-foreground/80">
+              <p className="text-lg mb-6 text-foreground">
                 Our vision is a world where kindness, empathy and sustainable practices lead to a balanced coexistence between all living beings. We promote ethical living, environmental conservation and social justice.
               </p>
               

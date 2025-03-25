@@ -100,7 +100,7 @@ const Team = () => {
                             className="p-2 rounded-full bg-secondary hover:bg-brand-100 transition-colors"
                             aria-label={`Email ${member.name}`}
                           >
-                            <Mail className="h-5 w-5 text-brand-600" />
+                            <Mail className="h-5 w-5 text-[#0074D9]" />
                           </a>
                           <a 
                             href={member.linkedin} 
@@ -109,7 +109,7 @@ const Team = () => {
                             rel="noopener noreferrer"
                             aria-label={`${member.name}'s LinkedIn profile`}
                           >
-                            <Linkedin className="h-5 w-5 text-brand-600" />
+                            <Linkedin className="h-5 w-5 text-[#0A66C2]" />
                           </a>
                         </div>
                       </div>
@@ -146,7 +146,7 @@ const Team = () => {
                               className="p-2 rounded-full bg-secondary hover:bg-brand-100 transition-colors"
                               aria-label={`Email ${member.name}`}
                             >
-                              <Mail className="h-5 w-5 text-brand-600" />
+                              <Mail className="h-5 w-5 text-[#0074D9]" />
                             </a>
                             <a 
                               href={member.linkedin} 
@@ -155,7 +155,7 @@ const Team = () => {
                               rel="noopener noreferrer"
                               aria-label={`${member.name}'s LinkedIn profile`}
                             >
-                              <Linkedin className="h-5 w-5 text-brand-600" />
+                              <Linkedin className="h-5 w-5 text-[#0A66C2]" />
                             </a>
                           </div>
                         </div>

@@ -14,7 +14,6 @@ const Contact = () => {
         <main className="pt-24 pb-16">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <div className="section-subtitle">Get In Touch</div>
               <h1 className="section-title text-4xl md:text-5xl">Contact Us</h1>
               <p className="section-description mx-auto">
                 Have questions or want to get involved? We'd love to hear from you.
@@ -25,28 +24,35 @@ const Contact = () => {
               <div className="lg:col-span-1">
                 <div className="space-y-8">
                   <div className="glass p-6 rounded-2xl">
-                    <h2 className="text-xl font-medium mb-4">Contact Information</h2>
+                    <div className="flex items-center justify-between mb-4">
+                      <h2 className="text-xl font-medium">Contact Information</h2>
+                      <img 
+                        src="/lovable-uploads/5cbf3ace-8ae0-4090-9b40-45846d73feb2.png" 
+                        alt="Karunalaya Nepal Logo" 
+                        className="h-12 w-auto"
+                      />
+                    </div>
                     <div className="space-y-4">
                       <div className="flex items-start">
-                        <MapPin className="h-5 w-5 text-brand-500 mr-3 mt-0.5" />
+                        <MapPin className="h-5 w-5 text-[#FF4136] mr-3 mt-0.5" />
                         <p className="text-foreground/80">
                           Bharatpur-1, Chitwan, Nepal
                         </p>
                       </div>
                       <div className="flex items-center">
-                        <Phone className="h-5 w-5 text-brand-500 mr-3" />
+                        <Phone className="h-5 w-5 text-[#2ECC40] mr-3" />
                         <a href="tel:+9779855078721" className="text-foreground/80 hover:text-brand-600 transition-colors">
                           056-593021, 9855078721
                         </a>
                       </div>
                       <div className="flex items-center">
-                        <Mail className="h-5 w-5 text-brand-500 mr-3" />
+                        <Mail className="h-5 w-5 text-[#0074D9] mr-3" />
                         <a href="mailto:Info@karunalayanepal.org" className="text-foreground/80 hover:text-brand-600 transition-colors">
                           Info@karunalayanepal.org
                         </a>
                       </div>
                       <div className="flex items-center">
-                        <Globe className="h-5 w-5 text-brand-500 mr-3" />
+                        <Globe className="h-5 w-5 text-[#39CCCC] mr-3" />
                         <a href="https://www.karunalayanepal.org" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-brand-600 transition-colors">
                           www.karunalayanepal.org
                         </a>
@@ -77,12 +83,12 @@ const Contact = () => {
                   <div className="glass p-6 rounded-2xl">
                     <h2 className="text-xl font-medium mb-4">Follow Us</h2>
                     <div className="space-y-3">
-                      <a href="https://www.instagram.com/karunalayanepal/" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-brand-500 transition p-2 rounded-md hover:bg-background/50">
-                        <Instagram className="h-5 w-5 mr-3" />
+                      <a href="https://www.instagram.com/karunalayanepal/" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-[#E1306C] transition p-2 rounded-md hover:bg-background/50">
+                        <Instagram className="h-5 w-5 mr-3 text-[#E1306C]" />
                         <span>Instagram</span>
                       </a>
-                      <a href="https://www.linkedin.com/in/karunalayanepal" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-brand-500 transition p-2 rounded-md hover:bg-background/50">
-                        <Linkedin className="h-5 w-5 mr-3" />
+                      <a href="https://www.linkedin.com/in/karunalayanepal" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-[#0A66C2] transition p-2 rounded-md hover:bg-background/50">
+                        <Linkedin className="h-5 w-5 mr-3 text-[#0A66C2]" />
                         <span>LinkedIn</span>
                       </a>
                     </div>
