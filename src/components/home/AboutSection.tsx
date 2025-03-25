@@ -11,11 +11,11 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <div className="space-y-6">
-              <h2 className="section-title">Karunalaya Nepal</h2>
-              <p className="text-lg mb-6 text-foreground">
+              <h2 className="section-title text-brand-600">Karunalaya Nepal</h2>
+              <p className="text-lg mb-6 text-foreground leading-relaxed">
                 Karunalaya Nepal is a non-profit organization based in Bharatpur-1, Chitwan, Nepal, dedicated to creating a compassionate and sustainable future through harmony between humans, animals and nature.
               </p>
-              <p className="text-lg mb-6 text-foreground">
+              <p className="text-lg mb-6 text-foreground leading-relaxed">
                 Our vision is a world where kindness, empathy and sustainable practices lead to a balanced coexistence between all living beings. We promote ethical living, environmental conservation and social justice.
               </p>
               
@@ -40,9 +40,9 @@ const AboutSection = () => {
               <div className="relative z-10 p-1">
                 <div className="aspect-w-16 aspect-h-9 w-full relative rounded-2xl overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1552799446-159ba9523315?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                    alt="Our mission in action" 
-                    className="object-cover w-full h-full rounded-xl"
+                    src="/lovable-uploads/5cbf3ace-8ae0-4090-9b40-45846d73feb2.png" 
+                    alt="Karunalaya Nepal Logo" 
+                    className="object-contain w-full h-full rounded-xl bg-white p-4"
                   />
                 </div>
               </div>

@@ -24,35 +24,43 @@ const Contact = () => {
               <div className="lg:col-span-1">
                 <div className="space-y-8">
                   <div className="glass p-6 rounded-2xl">
-                    <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center justify-between mb-6">
                       <h2 className="text-xl font-medium">Contact Information</h2>
                       <img 
                         src="/lovable-uploads/5cbf3ace-8ae0-4090-9b40-45846d73feb2.png" 
                         alt="Karunalaya Nepal Logo" 
-                        className="h-12 w-auto"
+                        className="h-24 w-auto"
                       />
                     </div>
                     <div className="space-y-4">
                       <div className="flex items-start">
-                        <MapPin className="h-5 w-5 text-[#FF4136] mr-3 mt-0.5" />
-                        <p className="text-foreground/80">
+                        <div className="bg-red-100 p-1.5 rounded-full mr-3">
+                          <MapPin className="h-5 w-5 text-red-500" />
+                        </div>
+                        <p className="text-foreground/80 mt-0.5">
                           Bharatpur-1, Chitwan, Nepal
                         </p>
                       </div>
                       <div className="flex items-center">
-                        <Phone className="h-5 w-5 text-[#2ECC40] mr-3" />
+                        <div className="bg-green-100 p-1.5 rounded-full mr-3">
+                          <Phone className="h-5 w-5 text-green-500" />
+                        </div>
                         <a href="tel:+9779855078721" className="text-foreground/80 hover:text-brand-600 transition-colors">
                           056-593021, 9855078721
                         </a>
                       </div>
                       <div className="flex items-center">
-                        <Mail className="h-5 w-5 text-[#0074D9] mr-3" />
+                        <div className="bg-blue-100 p-1.5 rounded-full mr-3">
+                          <Mail className="h-5 w-5 text-blue-500" />
+                        </div>
                         <a href="mailto:Info@karunalayanepal.org" className="text-foreground/80 hover:text-brand-600 transition-colors">
                           Info@karunalayanepal.org
                         </a>
                       </div>
                       <div className="flex items-center">
-                        <Globe className="h-5 w-5 text-[#39CCCC] mr-3" />
+                        <div className="bg-cyan-100 p-1.5 rounded-full mr-3">
+                          <Globe className="h-5 w-5 text-cyan-500" />
+                        </div>
                         <a href="https://www.karunalayanepal.org" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-brand-600 transition-colors">
                           www.karunalayanepal.org
                         </a>
@@ -64,14 +72,18 @@ const Contact = () => {
                     <h2 className="text-xl font-medium mb-4">Office Hours</h2>
                     <div className="space-y-3">
                       <div className="flex items-start">
-                        <Clock className="h-5 w-5 text-brand-500 mr-3 mt-0.5" />
+                        <div className="bg-orange-100 p-1.5 rounded-full mr-3">
+                          <Clock className="h-5 w-5 text-orange-500" />
+                        </div>
                         <div>
                           <p className="text-foreground/80">Sunday - Friday:</p>
                           <p className="text-foreground/60">10:00 AM - 5:00 PM</p>
                         </div>
                       </div>
                       <div className="flex items-start">
-                        <Clock className="h-5 w-5 text-brand-500 mr-3 mt-0.5" />
+                        <div className="bg-orange-100 p-1.5 rounded-full mr-3">
+                          <Clock className="h-5 w-5 text-orange-500" />
+                        </div>
                         <div>
                           <p className="text-foreground/80">Saturday:</p>
                           <p className="text-foreground/60">Closed</p>
@@ -84,11 +96,15 @@ const Contact = () => {
                     <h2 className="text-xl font-medium mb-4">Follow Us</h2>
                     <div className="space-y-3">
                       <a href="https://www.instagram.com/karunalayanepal/" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-[#E1306C] transition p-2 rounded-md hover:bg-background/50">
-                        <Instagram className="h-5 w-5 mr-3 text-[#E1306C]" />
+                        <div className="bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-500 p-1.5 rounded-md mr-3">
+                          <Instagram className="h-5 w-5 text-white" />
+                        </div>
                         <span>Instagram</span>
                       </a>
                       <a href="https://www.linkedin.com/in/karunalayanepal" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-[#0A66C2] transition p-2 rounded-md hover:bg-background/50">
-                        <Linkedin className="h-5 w-5 mr-3 text-[#0A66C2]" />
+                        <div className="bg-[#0A66C2] p-1.5 rounded-md mr-3">
+                          <Linkedin className="h-5 w-5 text-white" />
+                        </div>
                         <span>LinkedIn</span>
                       </a>
                     </div>

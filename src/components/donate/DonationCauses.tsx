@@ -1,12 +1,12 @@
 
 import React from 'react';
 import { 
-  Heart, 
-  Accessibility, 
-  Users, 
+  Scale, 
   PawPrint, 
   Leaf, 
-  Scale
+  Accessibility, 
+  Users, 
+  Heart
 } from 'lucide-react';
 
 interface DonationCausesProps {
@@ -17,25 +17,11 @@ interface DonationCausesProps {
 const DonationCauses: React.FC<DonationCausesProps> = ({ selectedCause, onSelectCause }) => {
   const causes = [
     {
-      id: 'lgbtqia',
-      title: 'LGBTQIA+ Empowerment',
-      icon: Heart,
-      color: 'bg-pink-100',
-      iconColor: 'text-pink-600'
-    },
-    {
-      id: 'disability',
-      title: 'Disability Rights',
-      icon: Accessibility,
-      color: 'bg-blue-100',
-      iconColor: 'text-blue-600'
-    },
-    {
-      id: 'women',
-      title: "Women's Empowerment",
-      icon: Users,
-      color: 'bg-purple-100',
-      iconColor: 'text-purple-600'
+      id: 'human',
+      title: 'Human Rights',
+      icon: Scale,
+      color: 'bg-red-100',
+      iconColor: 'text-red-600'
     },
     {
       id: 'animal',
@@ -52,11 +38,25 @@ const DonationCauses: React.FC<DonationCausesProps> = ({ selectedCause, onSelect
       iconColor: 'text-green-600'
     },
     {
-      id: 'human',
-      title: 'Human Rights',
-      icon: Scale,
-      color: 'bg-red-100',
-      iconColor: 'text-red-600'
+      id: 'disability',
+      title: 'Disability Rights',
+      icon: Accessibility,
+      color: 'bg-blue-100',
+      iconColor: 'text-blue-600'
+    },
+    {
+      id: 'women',
+      title: "Women's Empowerment",
+      icon: Users,
+      color: 'bg-purple-100',
+      iconColor: 'text-purple-600'
+    },
+    {
+      id: 'lgbtqia',
+      title: 'LGBTQIA+ Empowerment',
+      icon: Heart,
+      color: 'bg-pink-100',
+      iconColor: 'text-pink-600'
     },
   ];
 

@@ -59,15 +59,7 @@ const WorkingAreasSection = () => {
           <h2 className="section-title">Our Mission</h2>
           
           <div className="max-w-3xl mx-auto mb-12">
-            <div className="flex justify-center mb-8">
-              <img 
-                src="/lovable-uploads/5cbf3ace-8ae0-4090-9b40-45846d73feb2.png" 
-                alt="Karunalaya Nepal Logo" 
-                className="h-48 w-auto"
-              />
-            </div>
-            
-            <p className="text-lg mb-6 text-foreground">
+            <p className="text-lg mb-6 text-foreground leading-relaxed">
               We envision a world where humans, animals and nature thrive together in harmony. Through advocacy, education, workshops and action, we work to reduce conflicts, foster compassion and promote sustainable practices for a brighter, more inclusive future.
             </p>
             
@@ -94,7 +86,7 @@ const WorkingAreasSection = () => {
         </div>
 
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-lg mb-8 text-foreground">
+          <p className="text-lg mb-8 text-foreground leading-relaxed">
             Together, we believe in the power of compassion to create a world where every being is valued and every voice is heard. Join us in building a future of "One Health, One Earth" Compassion in Action for All.
           </p>
 

@@ -18,11 +18,11 @@ const Hero = () => {
             Together for lives, rights and nature
           </span>
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight mb-6 animate-fade-in-up">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium tracking-tight mb-10 animate-fade-in-up">
             Protecting Our Planet and All Its Inhabitants
           </h1>
           
-          <p className="text-xl text-foreground mb-8 max-w-2xl mx-auto animate-fade-in-up animate-delay-100">
+          <p className="text-xl text-foreground mb-10 max-w-2xl mx-auto animate-fade-in-up animate-delay-100 leading-relaxed">
             Join us in our mission to create a sustainable future where wildlife thrives, human rights are respected, and our planet is protected.
           </p>
           

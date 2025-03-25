@@ -21,30 +21,30 @@ const ContactSection = () => {
                 <img 
                   src="/lovable-uploads/5cbf3ace-8ae0-4090-9b40-45846d73feb2.png" 
                   alt="Karunalaya Nepal Logo" 
-                  className="h-12 w-auto"
+                  className="h-20 w-auto"
                 />
               </div>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <MapPin className="h-5 w-5 text-[#FF4136] mr-3 mt-0.5" />
+                  <MapPin className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
                   <p className="text-foreground/80">
                     Bharatpur-1, Chitwan, Nepal
                   </p>
                 </div>
                 <div className="flex items-center">
-                  <Phone className="h-5 w-5 text-[#2ECC40] mr-3" />
+                  <Phone className="h-5 w-5 text-green-500 mr-3" />
                   <a href="tel:+9779855078721" className="text-foreground/80 hover:text-brand-600 transition-colors">
                     056-593021, 9855078721
                   </a>
                 </div>
                 <div className="flex items-center">
-                  <Mail className="h-5 w-5 text-[#0074D9] mr-3" />
+                  <Mail className="h-5 w-5 text-blue-500 mr-3" />
                   <a href="mailto:Info@karunalayanepal.org" className="text-foreground/80 hover:text-brand-600 transition-colors">
                     Info@karunalayanepal.org
                   </a>
                 </div>
                 <div className="flex items-center">
-                  <Globe className="h-5 w-5 text-[#39CCCC] mr-3" />
+                  <Globe className="h-5 w-5 text-cyan-500 mr-3" />
                   <a href="https://www.karunalayanepal.org" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-brand-600 transition-colors">
                     www.karunalayanepal.org
                   </a>
@@ -72,11 +72,15 @@ const ContactSection = () => {
               <h3 className="text-xl font-medium mb-4">Follow Us</h3>
               <div className="flex space-x-4">
                 <a href="https://www.instagram.com/karunalayanepal/" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-[#E1306C] transition-colors">
-                  <Instagram className="h-5 w-5 mr-2 text-[#E1306C]" />
+                  <div className="bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-500 p-1 rounded-md mr-2">
+                    <Instagram className="h-5 w-5 text-white" />
+                  </div>
                   <span>Instagram</span>
                 </a>
                 <a href="https://www.linkedin.com/in/karunalayanepal" target="_blank" rel="noopener noreferrer" className="flex items-center text-foreground/80 hover:text-[#0A66C2] transition-colors">
-                  <Linkedin className="h-5 w-5 mr-2 text-[#0A66C2]" />
+                  <div className="bg-[#0A66C2] p-1 rounded-md mr-2">
+                    <Linkedin className="h-5 w-5 text-white" />
+                  </div>
                   <span>LinkedIn</span>
                 </a>
               </div>
