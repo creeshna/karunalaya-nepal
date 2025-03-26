@@ -31,14 +31,14 @@ const TeamSection = () => {
       bio: 'Dedicated advocate for community health, animal welfare and social justice with expertise in dental care.'
     },
     {
-      name: 'Ms. Sabina Kandel',
-      role: 'Member',
-      bio: 'Registered Lab Technician with 10 years of healthcare experience and 8 years of active community service.'
+      name: 'Mr. Kalyan Shrestha',
+      role: 'Board Member',
+      bio: 'Dedicated animal rights advocate and community organizer, committed to raising awareness about animal cruelty.'
     },
     {
-      name: 'Mr. Suvarna Ghimire',
-      role: 'Member',
-      bio: 'Environmental activist, researcher, and youth leader dedicated to sustainability and climate advocacy.'
+      name: 'Mr. Surajan Shrestha',
+      role: 'Board Member',
+      bio: 'Founder of Animal Rights Club and passionate advocate for animal welfare and ethical treatment.'
     },
   ];
 

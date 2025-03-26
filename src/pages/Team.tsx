@@ -42,24 +42,37 @@ const Team = () => {
       linkedin: '#',
       email: 'anushka@karunalayanepal.org'
     },
-  ];
-  
-  const members = [
     {
       name: 'Ms. Sabina Kandel',
-      role: 'Member',
+      role: 'Board Member',
       bio: 'Sabina Kandel is a Registered Lab Technician from Bharatpur with 10 years of experience in the healthcare field. Currently pursuing a Bachelor\'s degree in Education, she is committed to expanding her skills and knowledge to further her impact on both her professional and community roles. For the past 8 years, Sabina has been an active member of the WAY Group (We are Youth), where she has been a key contributor to weekly cleanup campaigns in Chitwan and Nawalparasi. In recognition of her dedication and community contributions, Sabina was honored with the WOW Women\'s Award on International Women\'s Day 2022.',
       linkedin: 'https://linkedin.com/in/sabina-kandel-419595323',
       email: 'sabina@karunalayanepal.org'
     },
     {
       name: 'Mr. Suvarna Ghimire',
-      role: 'Member',
+      role: 'Board Member',
       bio: 'Suvarna Ghimire is a passionate environmental activist, researcher, and youth leader dedicated to sustainability, climate advocacy, and community empowerment. Holding a Bachelor\'s degree in Environmental Science, Suvarna has worked extensively on waste management, pollution control, and environmental policy development. As a River Campaigner for a WWF Nepal-funded program, he actively advocates for clean rivers and water conservation. His experience includes leading waste management training programs, conducting environmental impact assessments, and engaging in research on solid waste management and disaster risk reduction. Suvarna has been actively involved in various organizations, including Better Chitwan, Creasion Nepal, and the Leo Club of Chitwan Mount Everest, where he has coordinated youth empowerment programs, advocacy campaigns, and policy discussions on climate resilience. He was also part of the Save Narayani movement, which successfully won a Supreme Court case for better waste management in Bharatpur. Committed to scientific research and policy reform, Suvarna continues to bridge environmental science and community action, striving for a cleaner and more sustainable future.',
       linkedin: '#',
       email: 'suvarna@karunalayanepal.org'
     },
+    {
+      name: 'Mr. Kalyan Shrestha',
+      role: 'Board Member',
+      bio: 'Kalyan Shrestha is a dedicated animal rights advocate and community organizer, committed to raising awareness about animal cruelty and promoting veganism. As an Organizer at Chitwan Animal Save, a chapter of The Save Movement, Kalyan leads initiatives focused on educating the public about the ethical treatment of animals and encouraging compassionate lifestyle choices. His work involves organizing vigils, outreach programs, and community events to highlight the realities of animal agriculture and advocate for a more humane world.',
+      linkedin: 'https://www.linkedin.com/in/kalyan-shrestha-319b9318a/',
+      email: 'kalyan@karunalayanepal.org'
+    },
+    {
+      name: 'Mr. Surajan Shrestha',
+      role: 'Board Member',
+      bio: 'Surajan Shrestha is a passionate animal rights advocate and community leader dedicated to creating awareness about animal welfare issues. As the founder of Animal Rights Club, he has organized numerous campaigns and educational initiatives to promote the ethical treatment of animals and plant-based lifestyle choices. Through his work, Surajan has built strong partnerships with local and international organizations, creating a powerful network for animal advocacy in Nepal.',
+      linkedin: 'https://www.linkedin.com/in/surajan-shrestha-bb65b2110/',
+      email: 'surajan@karunalayanepal.org'
+    },
   ];
+  
+  const members = [];
 
   return (
     <PageTransition>

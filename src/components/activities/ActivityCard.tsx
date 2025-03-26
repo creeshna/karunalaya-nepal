@@ -21,7 +21,7 @@ interface ActivityCardProps {
 
 const ActivityCard: React.FC<ActivityCardProps> = ({ activity }) => {
   return (
-    <div className="card bg-card hover-lift overflow-hidden">
+    <div className="bg-white shadow-sm hover-lift overflow-hidden rounded-lg">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="aspect-w-16 aspect-h-9">
           <img 
@@ -31,7 +31,7 @@ const ActivityCard: React.FC<ActivityCardProps> = ({ activity }) => {
           />
         </div>
         <div className="p-6">
-          <h3 className="text-2xl font-semibold mb-3">{activity.title}</h3>
+          <h3 className="text-2xl font-semibold mb-3 text-foreground">{activity.title}</h3>
           
           <div className="flex flex-wrap gap-y-2 mb-4">
             <div className="flex items-center mr-4 text-sm text-muted-foreground">
