@@ -53,7 +53,7 @@ const Footer = () => {
               <Link to="/blog" className="text-muted-foreground hover:text-brand-500 transition">Blog</Link>
               <Link to="/contact" className="text-muted-foreground hover:text-brand-500 transition">Contact Us</Link>
               <Link to="/contact" className="text-muted-foreground hover:text-brand-500 transition">Volunteer</Link>
-              <a href="#" className="text-muted-foreground hover:text-brand-500 transition">Newsletter</a>
+              <Link to="#" className="text-muted-foreground hover:text-brand-500 transition">Newsletter</Link>
             </nav>
           </div>
 
