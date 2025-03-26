@@ -1,5 +1,10 @@
-import { useLocation } from "react-router-dom";
+
+import { useLocation, Link } from "react-router-dom";
 import { useEffect } from "react";
+import { ArrowLeft } from "lucide-react";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
+import PageTransition from "../components/layout/PageTransition";
 
 const NotFound = () => {
   const location = useLocation();
@@ -12,15 +17,25 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">404</h1>
-        <p className="text-xl text-gray-600 mb-4">Oops! Page not found</p>
-        <a href="/" className="text-blue-500 hover:text-blue-700 underline">
-          Return to Home
-        </a>
+    <PageTransition>
+      <div className="min-h-screen flex flex-col bg-background">
+        <Navbar />
+        <div className="flex-grow flex items-center justify-center py-20">
+          <div className="text-center px-4">
+            <h1 className="text-6xl font-bold text-foreground mb-4">404</h1>
+            <p className="text-2xl text-foreground/80 mb-6">Oops! Page not found</p>
+            <p className="text-foreground/70 max-w-md mx-auto mb-8">
+              We couldn't find the page you're looking for. The page may have been moved, deleted, or never existed.
+            </p>
+            <Link to="/" className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-700 font-medium">
+              <ArrowLeft className="h-4 w-4" />
+              Return to Home
+            </Link>
+          </div>
+        </div>
+        <Footer />
       </div>
-    </div>
+    </PageTransition>
   );
 };
 
