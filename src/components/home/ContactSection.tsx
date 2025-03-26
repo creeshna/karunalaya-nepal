@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { MapPin, Phone, Mail, Send, Globe, Instagram, Linkedin } from 'lucide-react';
 
@@ -28,7 +27,7 @@ const ContactSection = () => {
                 <div className="flex items-start">
                   <MapPin className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
                   <p className="text-foreground/80">
-                    Bharatpur-1, Chitwan, Nepal
+                    Bharatpur, Chitwan, Nepal
                   </p>
                 </div>
                 <div className="flex items-center">
