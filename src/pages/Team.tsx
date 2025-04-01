@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
@@ -41,13 +40,6 @@ const Team = () => {
       bio: 'Anushka Shah is a dedicated advocate for community health, animal welfare and social justice blending expertise in dental care with a passion for grassroots activism. Holding a diploma in Dental Science and currently pursuing a Bachelor\'s degree in Social Work, Anushka integrates clinical knowledge with community service, focusing on oral health awareness programs for underserved communities. A strong proponent of animal welfare, Anushka leads a rescue and rehabilitation program for stray animals that also promotes cruelty-free policies. At Karunalaya Nepal, Anushka plays a vital role in driving inclusive empowerment, ensuring that health, social justice, and animal rights remain at the core of the organization\'s mission.',
       linkedin: '#',
       email: 'anushka@karunalayanepal.org'
-    },
-    {
-      name: 'Ms. Sabina Kandel',
-      role: 'Board Member',
-      bio: 'Sabina Kandel is a Registered Lab Technician from Bharatpur with 10 years of experience in the healthcare field. Currently pursuing a Bachelor\'s degree in Education, she is committed to expanding her skills and knowledge to further her impact on both her professional and community roles. For the past 8 years, Sabina has been an active member of the WAY Group (We are Youth), where she has been a key contributor to weekly cleanup campaigns in Chitwan and Nawalparasi. In recognition of her dedication and community contributions, Sabina was honored with the WOW Women\'s Award on International Women\'s Day 2022.',
-      linkedin: 'https://linkedin.com/in/sabina-kandel-419595323',
-      email: 'sabina@karunalayanepal.org'
     },
     {
       name: 'Mr. Suvarna Ghimire',
